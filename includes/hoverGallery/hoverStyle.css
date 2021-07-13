@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+Pay close attention to the positioning properties between the list item and the image. 
+We have to make sure that the hovered image must be on top of the other images, so this part is key.
+*/
+ul.hoverGallery {
+	float: left;
+	list-style: none;
+	margin: 0; padding: 10px;
+	width: 360px;
+}
+ul.hoverGallery li {
+	margin: 0; padding: 5px;
+	float: left;
+	position: relative;  /* Set the absolute positioning base coordinate */
+	width: 52px;
+	height: 52px;
+}
+ul.hoverGallery li img {
+	width: 50px; height: 50px; /* Set the small thumbnail size */
+	-ms-interpolation-mode: bicubic; /* IE Fix for Bicubic Scaling */
+	border: 1px solid #ddd;
+	padding: 2px;
+	background: #f0f0f0;
+	position: absolute;
+	left: 0; top: 0;
+}
+ul.hoverGallery li img.hover {
+	background:url(images/thumb_bg.png) no-repeat center center;  /* Image used as background on hover effect */
+	border: none; /* Get rid of border on hover */
+}
+
+div.hoverDescr {
+	width: 100px; height: 50px;
+	-ms-interpolation-mode: bicubic; /* IE Fix for Bicubic Scaling */
+	border: 1.5px solid #666;
+	margin:0px; padding: 0px;
+	background-color:#F9F9F9;
+	position: absolute;
+	left: 5px; top: 55px;
+	z-index:11;			/* Needs to be higher than img.hover */
+	font-family:Verdana, Arial, sans-serif;
+	font-size:11px;
+}
+
+div.hoverDescr div.title {
+	font-family:Verdana,Arial,sans-serif;
+	margin-top:3px;
+	margin-bottom:3px;
+	font-size: 12px;
+	font-weight:bold;
+	padding-left:5px;
+	padding-top:3px;
+}
+
+div.hoverDescr div.descrText {
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:5px;
+	margin:0px;
+	
+	font-size: 0.8em;
+}
+
+div.hoverDescr div.color {
+	text-align:right;
+	padding-right:5px;
+	font-style:oblique;
+	font-size: 0.9em;
+}
+
+div.hoverDescr div.surface {
+	text-align:right;
+	font-style:oblique;
+	padding-bottom:2px;
+	padding-right:5px;
+	
+	font-size: 0.9em;
+}
+
+div.hoverDescr div.author {
+	position:absolute;
+	width:219.5px;
+	padding:inherit;
+	padding-top:1px;
+	padding-bottom:2px;
+	padding-right:5px;
+	border:inherit;
+	text-align:right;
+	font-weight:bold;
+	font-size:9px;
+	right:-1.5px;
+}
+
+div.hoverDescr div.author a {
+	color:#009;
+}
+

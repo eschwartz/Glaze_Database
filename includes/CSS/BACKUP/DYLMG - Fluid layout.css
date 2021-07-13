@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #eeeeee; 
+	margin:0px;
+}
+
+label {
+	font-family:"Tw Cen MT";
+	font-weight:bold;
+	font-size:.8em;
+}
+
+input {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.hidden {
+	/**
+	* To create hidden elements
+	* which are still accessible (ie. from javascript)
+	* From http://designfestival.com/when-and-how-to-visually-hide-content/ 
+	*/
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}	
+
+div.loading {
+	background-image:url(../../images/loading.gif);
+	background-repeat: no-repeat; 
+	background-position: center; 
+}
+
+input.loading {		/* Used, for example, with autocomplete */
+	background-image:url(../../images/loading.gif);
+	background-repeat: no-repeat; 
+	background-position: right; 
+	padding-right:20px;
+}
+
+div.loadFail {
+	background-image:url(../../images/loadfail.png);
+	background-repeat: no-repeat; 
+	background-position: center; 
+}
+
+div#bottomMsg {
+/* Example, saving.... */
+	position:absolute;
+	bottom:0px;
+	left:45%;
+	padding:2px 20px 1px 10px;
+	
+	background-image:url(../../images/loading.gif);
+	background-repeat: no-repeat; 
+	background-position:right;
+	
+	font-weight:bold;
+	font-size:0.8em;
+	
+	-webkit-border-radius: 5px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius: 5px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-radius: 5px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	
+	display:none;
+}
+
+#header {
+	position:relative;
+	margin:0px 0px;
+	padding-bottom: 0px;
+	width:100%;
+	min-width:960px;
+	overflow:hidden;	/* necessary so container adjusts height to content */
+	height:75px;
+
+	/* Gradient Background from: http://webdesignerwall.com/tutorials/cross-browser-css-gradient */
+	background: #f6a828; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fab648', endColorstr='#f89a01'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#fab648), to(#f89a01)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #fab648,  #f89a01); /* for firefox 3.6+ */ 
+	border-bottom: 3px outset #f89a01;
+}
+
+#header img#banner {
+	position:absolute;
+	width:100%;
+	height:75px;
+}
+
+#header img#logo {
+	position:absolute;
+	top:-2px;
+	left:55px;
+	height:70px;
+	z-index:5;
+}
+
+#loginContainer {
+	position:relative;
+	width:100%;
+	min-width:960px;
+	z-index: 5;
+}
+
+#loginContainer #quickLogin {
+	position:absolute;
+	padding:8px;
+	right:25px;
+	top:5px;
+	
+	/* Gradient Background from: http://webdesignerwall.com/tutorials/cross-browser-css-gradient */
+	background-image:url(../../images/noiseLayer.png);
+	border: 2px outset #0d99d5;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#navbar {
+	padding:2px 1%;
+	/* Gradient Background from: http://webdesignerwall.com/tutorials/cross-browser-css-gradient */
+	background: #035caa; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#035caa', endColorstr='#023c80'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#035caa), to(#023c80)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #035caa,  #023c80); /* for firefox 3.6+ */ 
+	border-top: 2px outset #047ce7;
+	border-bottom: 2px outset #047ce7;
+}
+
+.navButton {
+	padding:5px;
+	
+	/* Gradient Background from: http://webdesignerwall.com/tutorials/cross-browser-css-gradient */
+	background: #6eac2c; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#acdd4a', endColorstr='#6eac2c'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#acdd4a), to(#6eac2c)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #acdd4a,  #6eac2c); /* for firefox 3.6+ */ 
+	border: 2px outset #acdd4a;
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	
+	font-family:"Tw Cen MT";
+	font-weight:bold;
+	font-size:.8em;
+	color:#FFF;
+	text-shadow: #000 1px 1px 1px;
+}
+
+.navButton:hover {
+		/* Gradient Background from: http://webdesignerwall.com/tutorials/cross-browser-css-gradient */
+	background: #acdd4a; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6eac2c', endColorstr='#acdd4a'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#6eac2c), to(#acdd4a)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #6eac2c,  #acdd4a); /* for firefox 3.6+ */ 
+	
+	border:2px inset #6eac2c;
+}
+
+#master-container {
+	position:relative;
+	width:96%;
+	margin:0% auto;
+	padding:1%;
+	min-width:960px;
+}
+
+
+
+#content-container {
+	position:absolute;
+	top:0px;
+	left:1%;
+	width: 65%;
+	/*min-width:624px;	/* = 960px * 65% */
+	margin-right: 2%;
+	
+	background: #fafafa; 
+	
+	border: 1px solid #a8a8a8;
+	-webkit-border-radius: 5px;
+	moz-border-radius: 5px;	
+	border-radius: 5px;
+}
+
+#highlight-column {
+	float:left;
+	width:30%;
+	min-width:255px;
+	margin-right:3%;
+}
+
+#content-column {
+	float:left;
+	margin:0%;
+}
+
+
+
+#outside-container {
+	position:absolute;
+	right:1%;
+	top:0%;
+	width:32%;
+	
+	overflow:visible;	/* necessary so container adjusts height to content */
+	background: #eeeeee; 
+	
+}
+
+
+#pageHeader {
+	padding:0.3em;
+	overflow:hidden;
+	
+	/* Gradient Background from: http://webdesignerwall.com/tutorials/cross-browser-css-gradient */
+	background: #e6e6e6; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#e6e6e6'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#e6e6e6)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #f3f3f3,  #e6e6e6); /* for firefox 3.6+ */ 
+	border:1px outset #b4b4b4;
+	-webkit-border-radius: 5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	border-radius:5px 5px 0px 0px;
+	
+	font-family:"Tw Cen MT Condensed Extra Bold";
+	font-size:1em;
+}
+
+#pageHeader #glazeTitle {	
+	float:left;
+	font-size:1.5em;
+	margin-left:0.5em;	
+}
+
+div#headerBtns  {
+	float:right;
+}
+
+div#headerBtns button {
+	padding:3px 10px 3px 6px;
+	
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	font-family:"Tw Cen MT";
+	font-size:1em;
+	font-weight:bold;
+}
+
+
+.section {
+	float:left;
+	margin:0px 0px 15px 0px;
+	overflow:hidden;
+	
+	clear:both
+}
+
+.sectionHead {
+	padding:1px 0px 3px 1px;
+	
+	/* Gradient Background from: http://webdesignerwall.com/tutorials/cross-browser-css-gradient */
+	font-family:"Tw Cen MT Condensed Extra Bold";
+	font-size:.9em;
+	
+}
+
+.sectionContent {
+	padding:2px;
+	
+	background: #ffffff;
+	
+	border: 1px solid #c2c2c2;
+
+	overflow:hidden;
+
+}
+
+.sectionContent table {
+	background:#ffffff;
+}
+
+.sectionContent table td {
+	/*padding: 2.5px 5px 2.5px 5px;*/
+}
+
+
+#highlight-column .section {
+	float:left;
+	margin:0px 0px 0px 0px;
+	width:100%;
+	border: 1px #c2c2c2 solid;
+}
+
+#highlight-column .sectionHead {
+	padding: 1px 1px 1px 5px;
+	/* Gradient Background from: http://webdesignerwall.com/tutorials/cross-browser-css-gradient */
+	background: #035caa; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#035caa', endColorstr='#023c80'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#035caa), to(#023c80)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #035caa,  #023c80); /* for firefox 3.6+ */ 
+
+	color:#FFF;
+	font-size:.8em;
+}
+
+#highlight-column .sectionHead:hover {
+	/* Gradient Background from: http://webdesignerwall.com/tutorials/cross-browser-css-gradient */
+	background: #023c80; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#023c80', endColorstr='#035caa'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#023c80), to(#035caa)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #023c80,  #035caa); /* for firefox 3.6+ */ 
+
+	border:1px inset #c2c2c2;
+}
+
+#highlight-column .sectionContent {
+	background:#ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1f1f1'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f1f1f1)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ffffff,  #f1f1f1); /* for firefox 3.6+ */ 
+
+	border: none;
+	
+	font-size:.9em;
+}
+
+#highlight-column .section table {
+	background:none;
+	border:none;
+	
+	font-size:1em;
+	width:100%;
+	table-layout:fixed;		/* prevents table from auto adjusting to width */
+	word-wrap:break-word;	/* CSS3: not supported by firefox */
+	overflow:hidden;		/* for non CSS3 browsers */
+}
+
+
+
+#outside-container .section {
+	overflow:visible;
+	margin:0px;
+}
+
+#outside-container .sectionContent {
+	border:none;
+	background:none;
+	padding:5px;
+	overflow:visible;
+}
+
+div#loadedImg img {
+	width:100%;
+}
+
+.clear {
+    clear: both;
+}

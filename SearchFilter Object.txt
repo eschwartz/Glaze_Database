@@ -1,0 +1,93 @@
+/*
+ * FiltersSearch Object definition
+*/
+
+var FiltersSearch = function () {
+	this.filters = new Object;
+	this.filterRules = {			// To match up types against regex, for server-side form validation
+		'string' : ~regex~,
+		'integer': ~regex~,
+		'cone': ~regex~
+	}
+
+	this.addField = function(field, vRule) {
+		if(!this.filters[field]) {
+			this.filters[field] = new Object();
+			this.filters[field].values = new Array();
+			this.filters[field].vRule = rule;
+		}
+		else {
+			// Field already exists
+			console.log('Error: Cannot add field: field already exits');
+			return false;
+		}
+	}
+	
+	this.addFilterRule = function() {
+		// add rule name to filterRules
+	}
+	
+	this.validateFilter = function(value, vRule) {
+		var myRule = new RegExp;
+
+		// Check if vRule is RegExp
+		if (vRule.constructor == RegExp) {
+			myRule = vRule;
+		}
+		else if (vRule.constructor == String) {
+			// Look for rule name in filterRules Object
+			if(!filterRules[vRule]) {
+				console.log('Error: no matching rule name in filterRules object');
+				return false;
+			}
+			else {
+				myRule = this.filterRules[vRule];
+			}
+		}
+		else {
+			console.log('Error: unexpected type of validation rule');
+			return false;
+		}
+
+		// Validate value against myRule
+		return value.search(myRule);
+	}
+
+	this.addFilter = function (field, value) {
+		// Check if field exists in object
+		if (!this.filters[field]) {	
+			console.log('Error: Cannot add filter. Specified field does not exists');
+			return false;
+		}
+		// Validate 
+		else if (this.validateFilter(value, this.filters[field].vRule) ) {
+			this.filters[field].values.push(value);
+		}
+	}
+
+	this.removeFilter = function(field, value) {
+		var valueIndex = this.filters[field].values.indexOf('value');
+		if( valueIndex) {					// Check if value exists in field array
+			this.filters[field].values.splice(valueIndex, 1);	// remove value from array
+		}
+
+		// Value does not exist in field array
+		else {
+			console.log('Error: Cannot remove filter. Value does not exist in field Array');
+			return false;
+		}
+	}
+
+}
+
+
+
+FILTERS OBJECT: {
+~field~ : 
+	'values': [~value~, ~value~, ~value~],
+	'rule': [~regex~ or ~rule name~]
+}
+
+
+}
+		

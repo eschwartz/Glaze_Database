@@ -1,0 +1,15 @@
+/**
+ * click2edit
+ *
+ * Allows user to click any text
+ * (with click2edit class)
+ * and change it into an editable input
+ *
+ * REQUIRES:
+ * jquery
+ * click2edit.js
+*/
+
+.c2e_hint {
+	position:absolute;
+}

@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	/*height:100%;*/
+	/* Background from: http://webdesignerwall.com/tutorials/cross-browser-css-gradient */
+	background: #999; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ccc,  #000); /* for firefox 3.6+ */ 
+
+}
+.master-frame {
+	width:90%;
+	/*height:auto;
+	min-height:100%;*/
+	margin-top:3%;
+	background-color:#FFF;
+		border: 12px solid #F00;
+		
+
+}
+
+.header {
+	clear:left;
+	width: 100%;
+		border: 12px solid #3FC;
+	text-align:right;
+	right:5%;
+}
+
+.content-border {
+	width: 80%;
+	/*height:100%;*/
+	padding: 2%;
+	padding-top:1%;
+		border: 12px solid #FF3;
+		background-color:#CF6;
+	border: medium;
+	z-index:1;
+}
+
+
+h1 {
+	margin-bottom:5px;
+}
+
+h3 {
+	font-size: 18px;
+	margin-bottom:0px;
+}
+h4 {
+	margin-bottom:0px;
+}
+
+.header_row {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+table.recipeTable td{
+	padding:1px;
+}
+
+table.recipeTable thead {
+	background-color:#CFC;
+	font-weight:bold;
+	border-bottom: solid;
+}
+

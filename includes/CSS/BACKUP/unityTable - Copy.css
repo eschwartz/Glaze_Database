@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+table.unityTable {
+	border:none;
+}
+
+table.unityTable tbody td {
+	vertical-align:top;
+	border-right:1px solid #000;
+}
+
+table.unityTable tbody td:last-child {
+	border:none;
+}
+
+/* Inner tables */
+table.unityTable table {
+	border:none;
+	margin: 0px 4px;
+	font-size:1em !important; /* To prevent font size from compounding on second table (ie. 0.9em * 0.9em = 0.81em) */
+}
+
+
+/* Fist column of inner table */
+table.unityTable table tr td:first-child {
+	font-weight:bold;
+	font-size:0.8em;
+	margin-top:5px;
+	padding-top:3px;
+}
+
+/* All cells of inner tables */
+table.unityTable table tbody td{
+	border:none;
+	vertical-align:top;
+}

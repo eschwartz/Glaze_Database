@@ -1,0 +1,61 @@
+<head>
+<style>
+table.suggest td, table.suggest {
+	border-bottom:1px dotted black;
+	padding: 5px;
+}
+
+table.suggest {
+	background-color:#EFEFEF;
+	border:4px solid black;
+	border-top: none;
+	border-collapse: collapse;
+	color:#880000 ;
+	font: 80% 'Lucida Grande',Verdana,Arial,sans-serif;
+	z-index:100;	/* Overlaps any other content */
+	position: relative;
+	top:-5px;
+}
+
+table.suggest tr:hover {
+	background-color:#FFFF99;
+	font-weight:bold;
+	color:black;
+	cursor:pointer; cursor:hand; /* Browser compatible */
+}
+</style>
+<script type='text/javascript' src='../includes/jquery-1.5.min.js'></script>
+<script type='text/javascript' src='../includes/jquery.json-2.2.min.js'></script>
+<script type='text/javascript' >
+$(document).ready(function() {
+	$('#filter').keyup(suggest);
+});
+
+function suggest() {
+	var filter = $('#filter').val();
+	var ajaxFile = '/includes/AJAX/filterIngrList.php';
+	$('#srch_loading').html("<img src='/images/loading.gif' />");
+	$.post(ajaxFile, "filter="+filter, function(res) {
+		// Returns array of matching ingredients (ingrID => ingName
+		$('#srch_loading').html("");
+		var ingrIDName = $.evalJSON(res);
+		
+		$("<table id='tbl_suggest' class='suggest'></table>").insertAfter('#filter');
+		// Set width of table to same as input
+		var inputWidth = $('#filter').css('width');
+		$('#tbl_suggest').attr('width', inputWidth);
+		
+		// Add each ingredient to table
+		for (var ingrID in ingrIDName) {
+			var ingrName = ingrIDName[ingrID];
+			$('#tbl_suggest').append("<tr><td>"+ingrName+"</td></tr>");
+		}
+	});
+}
+
+</script>
+<title>searchSuggest - Sandbox</title>
+</head>
+<h1>Search with cool dropdown css table</h1>
+<input type='text' id='filter' style="width:200px" />
+<div id='srch_loading'></div>

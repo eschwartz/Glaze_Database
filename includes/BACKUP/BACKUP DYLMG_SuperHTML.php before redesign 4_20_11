@@ -1,0 +1,79 @@
+<?php
+include('SuperHTML.php');
+include('sidebar.php');
+
+// createOxideArrays is included in quickArrays
+include_once('DYLMG_quickArrays.php');
+include_once('quickQuery.php');
+
+// DYLMG_SuperHTML class definition
+class DYLMG_SuperHTML extends SuperHTML {
+
+	var $usrLinks; 		// Header links for "Login/Register" or "Logout/My Account"
+	
+	function __construct($tTitle){
+		//constructor
+		
+		// Sets usrLinks based on whether user is logged in
+		require_once ('../includes/phpUserClass/access.class.php');
+		$user = new flexibleAccess();	
+		
+		if ($user->is_Loaded()) {
+			$this->usrLinks = "<a href='/usr/login.php?logout=1'>Logout</a><br><a href='/usr/myAccount.php'>My Accout</a><br>";
+		}
+		else {
+			$this->usrLinks = "<a href='/usr/login.php'>Login</a><br><a href='/usr/createUser.php'>Register</a><br>";
+		}
+
+		
+		// sets title
+		$title = 'DYLMG - ' . $tTitle;
+		$this->setTitle($title);
+		
+		// sets default css code
+		$this->addCSSLink('/stylesheets/sandbox_doyoulike.css');
+		$this->addCSSLink('/includes/web20_table.css');
+		$this->addCSSLink('/includes/CSS/unityTable.css');
+	} // end constructor
+
+	function buildTop(){
+		// First, let's add the css
+		$sidebar = getSidebar();
+		$temp = <<<HERE
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+$this->head
+<meta http-equiv="content-type" content="text/xml; charset=utf-8" />
+<title>$this->title</title>
+</head>
+<body $this->bodyParams>
+<div class="master-frame">
+    <div class="header">
+		$this->usrLinks
+		<img src="/images/DYLMG_title.png" style="width:35%" />
+	</div>
+<!--    <div class="sidebar">
+$sidebar
+	</div>--><!--End sidebar-->
+    <div class="content-border">
+<!-- __________________________________________ Content Start Here_______________________________________-->
+HERE;
+		$this->addText($temp);
+	} // end buildTop;
+    
+
+	function buildBottom(){
+		//builds the bottom of a generic web page
+		$temp = <<<HERE
+<!-- __________________________________________ Content Ends Here________________________________________-->
+	</div><!--End content-border-->
+</div><!--End master-frame-->
+</body>
+</html>
+HERE;
+		$this->addText($temp);
+	} // end buildBottom;
+
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+table.suggest td, table.suggest {
+	border-top:1px dotted black;
+	padding: 5px;
+	font-size:1em;
+}
+
+table.suggest {
+	background-color:#EFEFEF;
+	border:2px solid #996600;
+	border-top: none;
+	border-collapse: collapse;
+	color:#880000 ;
+	font: 'Lucida Grande',Verdana,Arial,sans-serif;
+	z-index:100;	/* Overlaps any other content */
+	position: absolute;	/* Table hovers over other elements on page */
+	line-height:1px; 	/* Will animate rows expanding height */
+	cursor:pointer; cursor:hand; 
+}
+
+
+.ingrHover {
+	background-color:#FFFF99;
+	font-weight:bold;
+	color:black;
+	cursor:pointer; cursor:hand; 
+}
+
+

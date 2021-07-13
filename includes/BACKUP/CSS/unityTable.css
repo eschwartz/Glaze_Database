@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+table.unityTable {
+	border:none;
+}
+
+table.unityTable tbody td {
+	padding:3px;
+	/*border: solid black 1px;*/
+	vertical-align:top;
+	
+}
+
+/* Inner tables */
+table.unityTable table {
+	border:none;
+}
+
+/* Fist column of inner table */
+table.unityTable table tr td:first-child {
+	font-weight:bold;
+}
+
+/* All cells of inner tables */
+table.unityTable table tbody td{
+	border: none;
+}

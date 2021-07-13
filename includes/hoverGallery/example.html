@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hover Gallery - Example</title>
+<link href="hoverStyle.css" type="text/css" rel="stylesheet" />
+<link href='../../includes/jquery_ui/css/start/jquery-ui-1.8.10.custom.css' rel='stylesheet' type='text/css'>
+<link href='../../includes/hoverGallery/hoverStyle.css' rel='stylesheet' type='text/css'>
+<script type='text/javascript' src='../../includes/jquery-1.5.min.js' ></script>
+<script type='text/javascript' src='../../includes/jquery_ui/js/jquery-ui-1.8.10.custom.min.js' ></script>
+<script type='text/javascript' src='hoverGallery.js'></script>
+
+</head>
+<h1>Hover Gallery</h1>
+From <a href='http://www.sohtanaka.com/web-design/fancy-thumbnail-hover-effect-w-jquery/'> SOHTANAKA</a><br />
+
+<!-- 
+Thumb size should be 100 x 100px (unless set otherwise in hoverStyle.css)
+For class="link", 
+Or if <div id="loadedImg"> does not exist
+clicking will follow link
+
+'alt' contains text to show in description,
+and can contain HTML code
+
+width of <ul> determines the number of images per row
+Each image requires 120px (100px width + 20px padding)
+-->
+
+<!--
+Possible Improvements:
+Be able to set width of each image from HTML
+-->
+<ul class="hoverGallery" style="width:360px">
+	<li><a href="images/main_image1.jpg" class="link"><img src="images/thumb1.jpg" alt="Army Guy <br><i>Follows Link</i>" /></a></li>
+	<li><a href="images/main_image2.jpg"><img src="images/thumb2.jpg" alt="
+	<div class='title'><a href='www.google.com'>My Glaze Name</a></div>
+    <div class='descrText'>Over Strontium Crystal Magic makes crystals. Spray only. Designed for cone 10 reduction but also works at cone 6 oxidation.</div>
+    <div class='color'>Blue/Green</div>
+    <div class='surface'>Satin matte</div>
+    <div class='author ui-state-highlight ui-corner-bottom'>Posted by <a href='google.com'>schw0722</a></div>
+    " /></a></li>
+	<li><a href="images/main_image3.jpg"><img src="images/thumb3.jpg" alt="<b>Peach Guy</b><br>And more!" /></a></li>
+	<li><a href="images/main_image4.jpg"><img src="images/thumb4.jpg" alt="Black Guy" /></a></li>
+	<li><a href="images/main_image5.jpg"><img src="images/thumb5.jpg" alt="Blue Guy" /></a></li>
+	<li><a href="images/main_image6.jpg"><img src="images/thumb6.jpg" alt="Pink Guy" /></a></li>
+	<li><a href="images/main_image7.jpg"><img src="images/thumb7.jpg" alt="Purple Army Guy" /></a></li>
+	<li><a href="images/main_image8.jpg"><img src="images/thumb8.jpg" alt="Blue Army Guy" /></a></li>
+	<li><a href="images/main_image9.jpg"><img src="images/thumb9.jpg" alt="Green Army Guy" /></a></li>
+</ul>
+
+<!-- If there is no 'loadedImg' div, images will link to <a href="...">-->
+<div id="loadedImg"> 
+	<a href="http://www.DesignBombs.com" title="Design Bombs - Web Gallery" target="_blank"><img src="images/main_image1.jpg" alt="" /></a><br /> 
+	<small style="float: right; color: #999;">Tutorial by <a style="color: #777;" href="http://www.SohTanaka.com">Soh Tanaka</a></small> 
+</div> 
+
+<body>
+</body>
+</html>

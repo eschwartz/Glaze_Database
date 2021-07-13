@@ -1,0 +1,270 @@
+<html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"><head>
+<link href="../includes/CSS/DYLMG.css" rel="stylesheet" type="text/css">
+<link href="../includes/CSS/web20_table.css" rel="stylesheet" type="text/css">
+<link href="../includes/CSS/unityTable.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../includes/jsFunctions.js"></script>
+<link href="../includes/jquery_ui/css/start/jquery-ui-1.8.10.custom.css" rel="stylesheet" type="text/css">
+<link href="../includes/hoverGallery/hoverStyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../includes/jquery-1.5.min.js"></script>
+<script type="text/javascript" src="../includes/jquery_ui/js/jquery-ui-1.8.10.custom.min.js"></script>
+<script type="text/javascript" src="../includes/jquery.json-2.2.min.js"></script>
+<script type="text/javascript" src="../includes/lightbox/js/jquery.lightbox-0.5.min.js"></script>
+<script type="text/javascript" src="../includes/hoverGallery/hoverGallery.js"></script>
+
+<meta http-equiv="content-type" content="text/xml; charset=utf-8">
+<title>DYLMG - Submit a Glaze</title>
+</head>
+<body>
+    <div id="header">
+    	<img id='banner' src="../images/header_splatter.png">
+		<img id='logo' src="../images/DYLMG_title.png" >
+        
+        <div id="quickLogin">
+            <label for="quickLogin">Username:</label><br>
+            <input type="text" name="quickLogin"/><br>
+            <label for="quickLogin">Password:</label><br>
+            <input type="text" name="quickPass" />
+        </div>
+</div>
+    
+    <div id='navbar'>
+    <button class='navButton'>My Account</button>
+    <button class='navButton'>Glaze Search</button>
+    <button class='navButton'>Submit Glaze</button>
+    </div>
+
+<div id='container' >
+    
+<!-- Header (Glaze Name)-->
+        <div id="pageHeader">
+        <div id="glazeTitle">Glaze name</div>
+            <div id="headerBtns">
+                <button class="ui-button ui-widget ui-state-default ui-button-text-only" role="button"><span class="ui-icon ui-icon-plusthick" style="float:left"></span> Add a new glaze</button>
+                <button><span class="ui-icon ui-icon-plusthick" style="float:left"></span> Add a new glaze variation</button>
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+		<div id='highlight-column'>
+        	<!-- Unity Table-->
+            <div class='section'>
+            <div id="div_unityTable">
+            <div class='sectionHead'>Unity Table</div>
+            <div class='sectionContent'>
+                <!-- Unity Table -->
+                <table class="unityTable"> 
+                <tbody><tr> 
+                  <td><table> 
+                <tbody><tr> 
+                  <td>CaO</td> 
+                  <td>0.292</td> 
+                </tr> 
+                <tr> 
+                  <td>K2O</td> 
+                  <td>0.064</td> 
+                </tr> 
+                <tr> 
+                  <td>MgO</td> 
+                  <td>0.001</td> 
+                </tr> 
+                <tr> 
+                  <td>Na2O</td> 
+                  <td>0.640</td> 
+                </tr> 
+                <tr> 
+                  <td>TiO2</td> 
+                  <td>0.001</td> 
+                </tr> 
+                <tr> 
+                  <td>P2O5</td> 
+                  <td>0.000</td> 
+                </tr> 
+                <tr> 
+                  <td>Fe2O3</td> 
+                  <td>0.001</td> 
+                </tr> 
+                </tbody></table> 
+                </td> 
+                  <td><table> 
+                <tbody><tr> 
+                  <td>Al2O3</td> 
+                  <td>0.200</td> 
+                </tr> 
+                <tr> 
+                  <td>B2O3</td> 
+                  <td>0.097</td> 
+                </tr> 
+                </tbody></table> 
+                </td> 
+                  <td><table> 
+                <tbody><tr> 
+                  <td>SiO2</td> 
+                  <td>3.229</td> 
+                </tr> 
+                </tbody></table> 
+                </td> 
+                </tr> 
+                </tbody></table> 
+            </div><!-- End section content (unity table)-->
+            </div><!-- End div_unityTable -->
+            </div><!-- End Section-->
+
+
+        
+        
+            <!-- List of glaze variations -->
+            <div class='section'>
+            <div class='sectionHead'>Variations</div>
+            <div id="div_vars" class="sectionContent">
+            <table id="table_vars">
+                <thead>
+                    <tr><td width="150px">Name</td>
+                    <td width="100px">Color</td>
+                </tr></thead>
+                <tbody><tr><td><div class="varID" style="visibility:hidden; width:0px; height:0px">1</div><a href="" class="selectVar">N501</a></td><td>Transparent</td></tr><tr><td><div class="varID" style="visibility:hidden; width:0px; height:0px">2</div><a href="" class="selectVar">With Copper</a></td><td>Blue</td></tr><tr><td><div class="varID" style="visibility:hidden; width:0px; height:0px">3</div><a href="" class="selectVar">N501MD10</a></td><td>Pink</td></tr><tr><td><div class="varID" style="visibility:hidden; width:0px; height:0px">4</div><a href="" class="selectVar">N501CH05</a></td><td>Green</td></tr><tr><td><div class="varID" style="visibility:hidden; width:0px; height:0px">5</div><a href="" class="selectVar">test</a></td><td>asdf</td></tr><tr><td><div class="varID" style="visibility:hidden; width:0px; height:0px">6</div><a href="" class="selectVar">test with good upload</a></td><td>adf</td></tr><tr><td><div class="varID" style="visibility:hidden; width:0px; height:0px">7</div><a href="" class="selectVar">reload list</a></td><td></td></tr><tr><td><div class="varID" style="visibility:hidden; width:0px; height:0px">8</div><a href="" class="selectVar">will it save</a></td><td></td></tr></tbody>
+            </table>
+            </div><!-- End Section Content-->
+            	<!-- Add new Variation button --> 
+         		<button id="input_newVar" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Add New Variation</span></button>
+
+            </div><!-- End section-->
+		</div> <!-- End highlight column -->
+        <!-- Left Column-->
+  <div id='left-column'>
+            
+            <!-- Base Ingredients-->
+            <div class='section' style="width:250px; float:left">
+            <div class='sectionHead'>Base Recipe</div>
+            <div class='sectionContent'>
+                <table id="table_recipe" class="recipeTable">
+                    <thead> 
+                        <tr><td width="150px">Ingredient</td>
+                        <td colspan="2">Amount</td>
+                    </tr></thead>
+                    <tbody>
+                        <!-- Recipe Ingredients go here -->
+                        <tr><td><b>EP Kaolin</b></td><td><div class="ingrBase" style="visibility:hidden; width:0px; height:0px">1</div><input type="text" id="55" name="55" value="10.00" class="ingrAmt" size="5"></td><td><a href="" class="deleteIngr" tabindex="500"><img src="../images/delete_icon.png"></a></td></tr><tr><td><b>Frit 3110</b></td><td><div class="ingrBase" style="visibility:hidden; width:0px; height:0px">1</div><input type="text" id="69" name="69" value="90.00" class="ingrAmt" size="5"></td><td><a href="" class="deleteIngr" tabindex="500"><img src="../images/delete_icon.png"></a></td></tr><tr class="new_ingrRow">
+                            <td>
+                                <input type="text" class="ingrSuggest" id="new_baseIngr" name="new_baseIngr">
+                            </td>
+                            <td><!-- Amount -->
+                                <input type="text" id="new_ingrAmt" name="new_ingrAmt" value="" size="5" readonly="">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div><!-- End Section content-->
+            </div><!-- end section-->
+            
+            <!-- Additional Ingredients -->
+			<div class="section" style="width:250px; float:left">
+            <div class="sectionHead">Additional Ingredients</div>
+            <div id="div_additions" class="sectionContent">
+                <table id="table_additional" class="recipeTable">
+                    <thead> 
+                        <tr><td width="150px">Ingredient</td>
+                        <td width="100px" colspan="2">Amount</td>
+                    </tr></thead>
+                    <tbody><tr><td><b>Copper Carbonate</b></td><td><div class="ingrBase" style="visibility:hidden; width:0px; height:0px">0</div><input type="text" id="245" name="245" value="0" class="ingrAmt" size="5"></td><td><a href="" class="deleteIngr" tabindex="500"><img src="../images/delete_icon.png"></a></td></tr><tr class="new_ingrRow">
+                            <td>
+                                <input type="text" class="ingrSuggest" id="new_varIngr" name="new_varIngr">
+                            </td>
+                            <td><!-- Amount -->
+                                <input type="text" id="new_ingrAmt" name="new_varAmt" value="" size="5" readonly="">
+                            </td>
+                        </tr></tbody>
+                </table>
+            </div><!-- End Section Content-->
+            </div><!-- End Section-->
+
+            <!-- Recalculate percentage -->
+            <div class='section' style="margin-top:2px;">
+				<div id="saveResults" class="ui-state-highlight ui-corner-all" style="width:160px;">
+    	        	<span class="ui-icon ui-icon-info" style="float:left"></span><b>Remember to save!</b>
+	            </div>
+			
+            <!-- Set Batch Size-->
+            <label for="input_batchAmt" style="font-size: .9em;">Batch Size:</label>
+            <input type="input" name="input_batchAmt" id="input_batchAmt" value="100" size="5"><br>
+            <input type="button" name="btn_calcPW" id="btn_calcPW" value="Calculate PW" onClick="calcPW()" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+
+            <!-- Save Glaze-->
+            <input type="button" name="saveForm" value="Save" onClick="saveGlaze()" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+            </div><!--End Section-->
+
+	
+        </div><!-- End Middle Column-->
+        
+        
+
+
+
+</div><!--End container-->
+
+<!-- Outside of container-->
+<div id="outside-container" >
+    <div class="section">
+    <div class="sectionContent">
+        <!-- Thumbnail gallery -->
+        <div id="loadedImg" style="float:left; border:2px outset #4f4f4f"><img src="../usr/1/images/glaze1_t_SomePots014.jpg" width="240px"></div>
+        <div style="float:left;">
+    <ul id="thumbGallery" class="hoverGallery" style="width:55px">
+      <li style="z-index: 0; ">
+            <a href="../usr/1/images/glaze1_t_SomePots014.jpg">
+            <img src="../usr/1/images/thumb_glaze1_t_SomePots014.jpg" alt="broken alien" class="" style="margin-top: 0px; margin-left: 0px; top: 0px; left: 0px; \padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; overflow-x: hidden; overflow-y: hidden; "></a>
+     	</li>
+        <li style="z-index: 0; ">
+            <a href="../usr/1/images/glaze1_t_SomePots008.jpg">
+            <img src="../usr/1/images/thumb_glaze1_t_SomePots008.jpg" alt="fixed alien" class="" style="margin-top: 0px; margin-left: 0px; top: 0px; left: 0px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; overflow-x: hidden; overflow-y: hidden; "></a>
+        </li>
+        <li style="z-index: 0; ">
+        	<a href="../usr/1/images/glaze1_t_SomePots013.jpg">
+            <img src="../usr/1/images/thumb_glaze1_t_SomePots013.jpg" alt="test pots" class="" style="margin-top: 0px; margin-left: 0px; top: 0px; left: 0px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; overflow-x: hidden; overflow-y: hidden; "></a>
+        </li><li style="z-index: 0; ">
+        	<a href="../usr/1/images/glaze1_t_SomePots003.jpg">
+            <img src="../usr/1/images/thumb_glaze1_t_SomePots003.jpg" alt="some pots" class="" style="margin-top: 0px; margin-left: 0px; top: 0px; left: 0px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; overflow-x: hidden; overflow-y: hidden; "></a>
+        </li></ul><br><!-- each column is 120px -->
+        </div><!-- End hovergallery div-->
+        
+        <div style="float:right; margin-top:15px;">
+        <button id="btn_imgUpload" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Upload an Image</span></button>
+        </div>
+        <div class='clear'></div><!-- Required for full height of container (since we can't use overflow:hidden)-->
+    </div><!-- End sectionContent-->
+    </div><!-- End section -->
+    
+    <div id="img_loading"></div>
+    <div id="img_results"></div>
+    
+    
+</div><!-- End outsideContainer -->
+
+
+<!-- Dialog is here for some reason? -->
+<div style="display: none; z-index: 1000; outline-width: 0px; outline-style: initial; outline-color: initial; position: absolute; " class="ui-dialog ui-widget ui-widget-content ui-corner-all  ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-dialog_saving"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-dialog_saving">&nbsp;</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="dialog_saving" style="text-align:center" class="ui-dialog-content ui-widget-content">
+<h3>Saving...</h3>
+<img src="../images/loading.gif">
+</div><div class="ui-resizable-handle ui-resizable-n"></div><div class="ui-resizable-handle ui-resizable-e"></div><div class="ui-resizable-handle ui-resizable-s"></div><div class="ui-resizable-handle ui-resizable-w"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" style="z-index: 1001; "></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1002; "></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1003; "></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1004; "></div></div><div style="display: none; z-index: 1000; outline-width: 0px; outline-style: initial; outline-color: initial; position: absolute; " class="ui-dialog ui-widget ui-widget-content ui-corner-all  ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-dialog_imgUpload"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-dialog_imgUpload">&nbsp;</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="dialog_imgUpload" class="ui-dialog-content ui-widget-content">
+<form id="form_imgUpload" name="form_imgUpload" action="/includes/imgUpload.php" method="post" enctype="multipart/form-data" target="imgUpload">
+<iframe id="imgUpload" name="imgUpload" src="#" style="width:0;height:0;border:0px solid #fff;">&lt;!-- Proceses image upload--&gt;</iframe>
+<label for="imgFile">Select a file:</label><br>
+<input name="imgFile" type="file" value="Browse..."><br>
+<label for="imgDescr">Description:</label><br>
+<textarea row="5" cols="35" name="imgDescr"></textarea>
+<input type="hidden" name="imgUpload_userID">
+<input type="hidden" name="imgUpload_varID">
+</form>
+<div class="progressbar"></div>
+</div><div class="ui-resizable-handle ui-resizable-n"></div><div class="ui-resizable-handle ui-resizable-e"></div><div class="ui-resizable-handle ui-resizable-s"></div><div class="ui-resizable-handle ui-resizable-w"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" style="z-index: 1001; "></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1002; "></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1003; "></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1004; "></div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Upload Glaze Image</span></button><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Cancel</span></button></div></div></div><div style="display: none; z-index: 1000; outline-width: 0px; outline-style: initial; outline-color: initial; position: absolute; " class="ui-dialog ui-widget ui-widget-content ui-corner-all  ui-draggable ui-resizable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-dialog_newVar"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-dialog_newVar">Add New Glaze Variation</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="dialog_newVar" class="dialog_newInfo ui-dialog-content ui-widget-content">
+	<form><fieldset>
+		<label for="newVar_name">Variation Name</label><br>
+		<input type="text" name="newVar_name" id="newVar_name"><br>
+		<label for="newVar_color">Variation Color</label><br>
+		<input type="text" name="newVar_color" id="newVar_color"><br>
+		<label for="newVar_surface">Variation Surface</label><br>
+		<input type="text" name="newVar_surface" id="newVar_surface"><br>
+		<label for="newVar_descr">Variation Description</label><br>
+		<textarea rows="5" cols="35" name="newVar_descr" id="newVar_descr"></textarea>
+		<input type="hidden" id="newVar_default" name="newVar_default" value="0">
+	</fieldset></form>
+</div><div class="ui-resizable-handle ui-resizable-n"></div><div class="ui-resizable-handle ui-resizable-e"></div><div class="ui-resizable-handle ui-resizable-s"></div><div class="ui-resizable-handle ui-resizable-w"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" style="z-index: 1001; "></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1002; "></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1003; "></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1004; "></div><div class="ui-dialog-buttonpane ui-widget-content ui-helper-clearfix"><div class="ui-dialog-buttonset"><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Add New Glaze Variation</span></button><button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Cancel</span></button></div></div></div></body></html>

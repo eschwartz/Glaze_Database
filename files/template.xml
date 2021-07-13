@@ -1,0 +1,2336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdt ver="2006" requires="2006" Ratio1Name="Si:Al" Ratio2Name="SiB:Al" OxideProperty1="Expan" RecipeProperty1="Cost/kg">
+<oxides>
+<oxide name="BaO" weight="153.30" property1="0.129" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="CaO" weight="56.10" property1="0.148" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="Li2O" weight="29.80" property1="0.068" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="MgO" weight="40.30" property1="0.026" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="K2O" weight="94.20" property1="0.331" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="Na2O" weight="62.00" property1="0.387" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="ZnO" weight="81.40" property1="0.094" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="SrO" weight="103.60" property1="0.130" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="F" weight="19.00" property1="0.000" unity1="yes" unity2="no" UnityIfReduction1="no" UnityIfReduction2="no" UnityIfOxidation1="no" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="P2O5" weight="141.90" property1="0.000" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="PbO" weight="223.20" property1="0.083" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="TiO2" weight="79.90" property1="0.144" unity1="yes" unity2="no" UnityIfReduction1="no" UnityIfReduction2="no" UnityIfOxidation1="no" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="Al2O3" weight="102.00" property1="0.063" unity1="no" unity2="yes" UnityIfReduction1="no" UnityIfReduction2="yes" UnityIfOxidation1="no" UnityIfOxidation2="yes" Ratio1="B" Ratio2="B"/>
+<oxide name="B2O3" weight="69.60" property1="0.031" unity1="yes" unity2="no" UnityIfReduction1="no" UnityIfReduction2="no" UnityIfOxidation1="no" UnityIfOxidation2="no" Ratio1="N" Ratio2="T"/>
+<oxide name="SiO2" weight="60.10" property1="0.035" unity1="yes" unity2="no" UnityIfReduction1="no" UnityIfReduction2="no" UnityIfOxidation1="no" UnityIfOxidation2="no" Ratio1="T" Ratio2="T"/>
+<oxide name="CoO" weight="74.92" property1="0.000" unity1="yes" unity2="no" UnityIfReduction1="no" UnityIfReduction2="no" UnityIfOxidation1="no" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="Cr2O3" weight="152.00" property1="0.000" unity1="yes" unity2="no" UnityIfReduction1="no" UnityIfReduction2="no" UnityIfOxidation1="no" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="Fe2O3" weight="160.00" property1="0.125" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="no" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="FeO" weight="81.80" property1="0.000" unity1="yes" unity2="no" UnityIfReduction1="no" UnityIfReduction2="no" UnityIfOxidation1="no" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="MnO" weight="70.90" property1="0.050" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="MnO2" weight="86.90" property1="0.050" unity1="yes" unity2="no" UnityIfReduction1="yes" UnityIfReduction2="no" UnityIfOxidation1="yes" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="NiO" weight="74.70" property1="0.000" unity1="yes" unity2="no" UnityIfReduction1="no" UnityIfReduction2="no" UnityIfOxidation1="no" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+<oxide name="ZrO2" weight="123.22" property1="0.020" unity1="yes" unity2="no" UnityIfReduction1="no" UnityIfReduction2="no" UnityIfOxidation1="no" UnityIfOxidation2="no" Ratio1="N" Ratio2="N"/>
+</oxides>
+<materials>
+<types>
+<type number="1" name="Additive"/>
+<type number="2" name="Aggregate"/>
+<type number="3" name="Alumina"/>
+<type number="4" name="AlumSilicate"/>
+<type number="5" name="Ball Clay"/>
+<type number="6" name="Clay Other"/>
+<type number="7" name="Colorant"/>
+<type number="8" name="Electrolyte"/>
+<type number="9" name="Elemental"/>
+<type number="10" name="Eutectic"/>
+<type number="11" name="Feldspar"/>
+<type number="12" name="Fireclay"/>
+<type number="13" name="Flux Source"/>
+<type number="14" name="Frit"/>
+<type number="15" name="Kaolin"/>
+<type number="16" name="Opacifier"/>
+<type number="17" name="Other"/>
+<type number="18" name="Raw Mineral"/>
+<type number="19" name="Refractory"/>
+<type number="20" name="Silica"/>
+<type number="21" name="Stoneware Clay"/>
+</types>
+<material name="A-3 Feldspar" searchkey="A3 Feldspar, Kona A-3 Feldspar, Kona A3 Feldspar" weight="660.63181565613" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.047104" analysis="0.400"/>
+<oxide symbol="K2O" formula="0.526682" analysis="7.510"/>
+<oxide symbol="Na2O" formula="0.426214" analysis="4.000"/>
+<oxide symbol="Al2O3" formula="1.055716" analysis="16.300"/>
+<oxide symbol="SiO2" formula="7.873720" analysis="71.630"/>
+<oxide symbol="Fe2O3" formula="0.002890" analysis="0.070"/>
+</chemistry>
+</material>
+<material name="ABC Colemanite" searchkey="" weight="86.325387027883" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.455478" analysis="29.600"/>
+<oxide symbol="MgO" formula="0.006426" analysis="0.300"/>
+<oxide symbol="Na2O" formula="0.001392" analysis="0.100"/>
+<oxide symbol="SrO" formula="0.008333" analysis="1.000"/>
+<oxide symbol="Al2O3" formula="0.001693" analysis="0.200"/>
+<oxide symbol="B2O3" formula="0.528371" analysis="42.600"/>
+<oxide symbol="SiO2" formula="0.008618" analysis="0.600"/>
+<oxide symbol="Fe2O3" formula="0.000540" analysis="0.100"/>
+</chemistry>
+</material>
+<material name="Albany Slip" searchkey="New York Slip, Albany Clay" weight="459.33031085199" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.475758" analysis="5.810"/>
+<oxide symbol="K2O" formula="0.156053" analysis="3.200"/>
+<oxide symbol="MgO" formula="0.308914" analysis="2.710"/>
+<oxide symbol="Na2O" formula="0.059275" analysis="0.800"/>
+<oxide symbol="TiO2" formula="0.022998" analysis="0.400"/>
+<oxide symbol="Al2O3" formula="0.658897" analysis="14.630"/>
+<oxide symbol="SiO2" formula="4.419536" analysis="57.820"/>
+<oxide symbol="Fe2O3" formula="0.149586" analysis="5.210"/>
+</chemistry>
+</material>
+<material name="Alberta Slip" searchkey="Archie Bray Slip" weight="383.40128411813" type="6" property1="0">
+<chemistry>
+<oxide symbol="K2O" formula="0.122102" analysis="3.000"/>
+<oxide symbol="CaO" formula="0.444226" analysis="6.500"/>
+<oxide symbol="Na2O" formula="0.136046" analysis="2.200"/>
+<oxide symbol="MgO" formula="0.294924" analysis="3.100"/>
+<oxide symbol="TiO2" formula="0.019194" analysis="0.400"/>
+<oxide symbol="Al2O3" formula="0.518719" analysis="13.800"/>
+<oxide symbol="P2O5" formula="0.002702" analysis="0.100"/>
+<oxide symbol="SiO2" formula="3.623493" analysis="56.800"/>
+<oxide symbol="Fe2O3" formula="0.115020" analysis="4.800"/>
+</chemistry>
+</material>
+<material name="Alkatrol" searchkey="" weight="486.21245421245" type="4" property1="0">
+<chemistry>
+<oxide symbol="TiO2" formula="0.030395" analysis="0.500"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="21.000"/>
+<oxide symbol="SiO2" formula="5.907773" analysis="73.100"/>
+<oxide symbol="Fe2O3" formula="0.012143" analysis="0.400"/>
+<oxide symbol="K2O" formula="0.067031" analysis="1.300"/>
+<oxide symbol="Na2O" formula="0.101843" analysis="1.300"/>
+</chemistry>
+</material>
+<material name="Alumina Hydrate" searchkey="Alum Hydrate" weight="156.01101254206" type="3" property1="0">
+<chemistry>
+<oxide symbol="Al2O3" formula="1.000000" analysis="65.390"/>
+</chemistry>
+</material>
+<material name="Andafrac" searchkey="" weight="318.75" type="4" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="0.020565" analysis="0.400"/>
+<oxide symbol="TiO2" formula="0.015957" analysis="0.400"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="32.000"/>
+<oxide symbol="SiO2" formula="3.367824" analysis="63.500"/>
+<oxide symbol="Fe2O3" formula="0.013945" analysis="0.700"/>
+</chemistry>
+</material>
+<material name="Anhydrous Borax" searchkey="Calcined Borax, Calcnd Borax, Dehydrated Borax" weight="201.18818948735" type="13" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="1.000000" analysis="30.820"/>
+<oxide symbol="B2O3" formula="1.999830" analysis="69.190"/>
+</chemistry>
+</material>
+<material name="APG Missouri Fireclay" searchkey="AP Green, A.P., A. P., APG Fire, APGFC" weight="327.92316056542" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.020528" analysis="0.350"/>
+<oxide symbol="K2O" formula="0.017465" analysis="0.500"/>
+<oxide symbol="MgO" formula="0.028576" analysis="0.350"/>
+<oxide symbol="Na2O" formula="0.026535" analysis="0.500"/>
+<oxide symbol="TiO2" formula="0.082361" analysis="2.000"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="31.000"/>
+<oxide symbol="SiO2" formula="2.846868" analysis="52.000"/>
+<oxide symbol="Fe2O3" formula="0.041129" analysis="2.000"/>
+</chemistry>
+</material>
+<material name="Applewood Ash" searchkey="" weight="84.141416110555" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.812126" analysis="54.140"/>
+<oxide symbol="K2O" formula="0.080490" analysis="9.010"/>
+<oxide symbol="MgO" formula="0.087703" analysis="4.200"/>
+<oxide symbol="Na2O" formula="0.019681" analysis="1.450"/>
+<oxide symbol="P2O5" formula="0.020341" analysis="3.430"/>
+<oxide symbol="SiO2" formula="0.028844" analysis="2.060"/>
+</chemistry>
+</material>
+<material name="Australian Spodumene" searchkey="Ausi Spodumene, Ausi Spod" weight="385.23610346098" property1="0">
+<chemistry>
+<oxide symbol="TiO2" formula="0.000485" analysis="0.010"/>
+<oxide symbol="Al2O3" formula="1.007420" analysis="26.500"/>
+<oxide symbol="MnO" formula="0.001094" analysis="0.020"/>
+<oxide symbol="Fe2O3" formula="0.001696" analysis="0.070"/>
+<oxide symbol="Li2O" formula="0.988922" analysis="7.600"/>
+<oxide symbol="K2O" formula="0.003293" analysis="0.080"/>
+<oxide symbol="Na2O" formula="0.009381" analysis="0.150"/>
+<oxide symbol="P2O5" formula="0.004645" analysis="0.170"/>
+<oxide symbol="CaO" formula="0.003456" analysis="0.050"/>
+<oxide symbol="SiO2" formula="4.161501" analysis="64.500"/>
+</chemistry>
+</material>
+<material name="Ball Clay" searchkey="" weight="407.53636363636" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.021818" analysis="0.300"/>
+<oxide symbol="K2O" formula="0.038981" analysis="0.900"/>
+<oxide symbol="MgO" formula="0.030372" analysis="0.300"/>
+<oxide symbol="Na2O" formula="0.026323" analysis="0.400"/>
+<oxide symbol="TiO2" formula="0.051064" analysis="1.000"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="25.000"/>
+<oxide symbol="SiO2" formula="4.005324" analysis="59.000"/>
+<oxide symbol="Fe2O3" formula="0.025500" analysis="1.000"/>
+</chemistry>
+</material>
+<material name="Barium Carbonate" searchkey="Barium Carb" weight="197.39891836209" type="13" property1="0">
+<chemistry>
+<oxide symbol="BaO" formula="1.000000" analysis="77.660"/>
+</chemistry>
+</material>
+<material name="Barnard Slip" searchkey="Blackbird Slip, Blackbird Clay, Barnard Clay" weight="1342.2516373823" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.143541" analysis="0.600"/>
+<oxide symbol="K2O" formula="0.156721" analysis="1.100"/>
+<oxide symbol="MgO" formula="0.233120" analysis="0.700"/>
+<oxide symbol="Na2O" formula="0.129881" analysis="0.600"/>
+<oxide symbol="TiO2" formula="0.033595" analysis="0.200"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="7.600"/>
+<oxide symbol="SiO2" formula="10.495665" analysis="47.000"/>
+<oxide symbol="Fe2O3" formula="2.843586" analysis="33.900"/>
+</chemistry>
+</material>
+<material name="Bell Dark Ball Clay" searchkey="" weight="380.59701492537" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.012890" analysis="0.190"/>
+<oxide symbol="K2O" formula="0.012121" analysis="0.300"/>
+<oxide symbol="MgO" formula="0.017944" analysis="0.190"/>
+<oxide symbol="Na2O" formula="0.006139" analysis="0.100"/>
+<oxide symbol="TiO2" formula="0.085742" analysis="1.800"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="26.800"/>
+<oxide symbol="SiO2" formula="3.748976" analysis="59.200"/>
+<oxide symbol="Fe2O3" formula="0.023074" analysis="0.970"/>
+</chemistry>
+</material>
+<material name="Bell Feldspar" searchkey="" weight="610.3239296715" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.043190" analysis="0.397"/>
+<oxide symbol="K2O" formula="0.652632" analysis="10.073"/>
+<oxide symbol="Na2O" formula="0.304178" analysis="3.090"/>
+<oxide symbol="Al2O3" formula="1.069383" analysis="17.872"/>
+<oxide symbol="SiO2" formula="6.933422" analysis="68.275"/>
+<oxide symbol="Fe2O3" formula="0.003013" analysis="0.079"/>
+</chemistry>
+</material>
+<material name="Bentolite L" searchkey="Bentolite" weight="935.14297149844" type="6" property1="0">
+<chemistry>
+<oxide symbol="SiO2" formula="11.311962" analysis="72.700"/>
+<oxide symbol="MgO" formula="0.626523" analysis="2.700"/>
+<oxide symbol="Al2O3" formula="1.256025" analysis="13.700"/>
+<oxide symbol="Fe2O3" formula="0.040913" analysis="0.700"/>
+<oxide symbol="CaO" formula="0.333384" analysis="2.000"/>
+<oxide symbol="Na2O" formula="0.030166" analysis="0.200"/>
+<oxide symbol="K2O" formula="0.009927" analysis="0.100"/>
+<oxide symbol="TiO2" formula="0.023408" analysis="0.200"/>
+</chemistry>
+</material>
+<material name="Bentonite" searchkey="Montmorillonite" weight="786.3961695332" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.140961" analysis="1.000"/>
+<oxide symbol="Na2O" formula="0.382640" analysis="3.000"/>
+<oxide symbol="MgO" formula="0.392451" analysis="2.000"/>
+<oxide symbol="K2O" formula="0.083948" analysis="1.000"/>
+<oxide symbol="Al2O3" formula="1.550568" analysis="20.000"/>
+<oxide symbol="SiO2" formula="7.763158" analysis="59.000"/>
+<oxide symbol="Fe2O3" formula="0.172985" analysis="3.500"/>
+</chemistry>
+</material>
+<material name="Blyth Frit 3104" searchkey="F3104, Blyth F3104" weight="315.91870978573" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.675762" analysis="12.000"/>
+<oxide symbol="B2O3" formula="0.658164" analysis="14.500"/>
+<oxide symbol="K2O" formula="0.013415" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.310823" analysis="6.100"/>
+<oxide symbol="Al2O3" formula="0.309724" analysis="10.000"/>
+<oxide symbol="SiO2" formula="2.996234" analysis="57.000"/>
+</chemistry>
+</material>
+<material name="Bonding Clay" searchkey="" weight="346.55285918594" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.012369" analysis="0.200"/>
+<oxide symbol="K2O" formula="0.062611" analysis="1.700"/>
+<oxide symbol="MgO" formula="0.025827" analysis="0.300"/>
+<oxide symbol="Na2O" formula="0.011192" analysis="0.200"/>
+<oxide symbol="TiO2" formula="0.069475" analysis="1.600"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="29.400"/>
+<oxide symbol="SiO2" formula="3.157662" analysis="54.700"/>
+<oxide symbol="Fe2O3" formula="0.036862" analysis="1.700"/>
+</chemistry>
+</material>
+<material name="Bone Ash" searchkey="Calcium Phosphate" weight="338.3556696067" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="3.355342" analysis="55.250"/>
+<oxide symbol="P2O5" formula="1.000000" analysis="41.650"/>
+<oxide symbol="MgO" formula="0.118356" analysis="1.400"/>
+</chemistry>
+</material>
+<material name="Boraq" searchkey="Boraq 1" weight="106.39724181884" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.412898" analysis="21.800"/>
+<oxide symbol="K2O" formula="0.006768" analysis="0.600"/>
+<oxide symbol="MgO" formula="0.060642" analysis="2.300"/>
+<oxide symbol="Na2O" formula="0.061696" analysis="3.600"/>
+<oxide symbol="B2O3" formula="0.457996" analysis="30.000"/>
+<oxide symbol="Al2O3" formula="0.029168" analysis="2.800"/>
+<oxide symbol="SiO2" formula="0.238676" analysis="13.500"/>
+<oxide symbol="Fe2O3" formula="0.001328" analysis="0.200"/>
+</chemistry>
+</material>
+<material name="Boraq 2" searchkey="" weight="102.06572521119" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.462116" analysis="25.400"/>
+<oxide symbol="K2O" formula="0.005418" analysis="0.500"/>
+<oxide symbol="MgO" formula="0.091175" analysis="3.600"/>
+<oxide symbol="Na2O" formula="0.052679" analysis="3.200"/>
+<oxide symbol="B2O3" formula="0.388612" analysis="26.500"/>
+<oxide symbol="Al2O3" formula="0.024015" analysis="2.400"/>
+<oxide symbol="SiO2" formula="0.202094" analysis="11.900"/>
+<oxide symbol="Fe2O3" formula="0.000638" analysis="0.100"/>
+</chemistry>
+</material>
+<material name="Boraq 3" searchkey="" weight="102.6077090574" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.499659" analysis="27.300"/>
+<oxide symbol="K2O" formula="0.005450" analysis="0.500"/>
+<oxide symbol="MgO" formula="0.050956" analysis="2.000"/>
+<oxide symbol="Na2O" formula="0.052995" analysis="3.200"/>
+<oxide symbol="B2O3" formula="0.390940" analysis="26.500"/>
+<oxide symbol="Al2O3" formula="0.024159" analysis="2.400"/>
+<oxide symbol="SiO2" formula="0.203304" analysis="11.900"/>
+<oxide symbol="Fe2O3" formula="0.000642" analysis="0.100"/>
+</chemistry>
+</material>
+<material name="Borax" searchkey="Sodium Pyroborate" weight="381.53846153846" type="13" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="1.000000" analysis="16.250"/>
+<oxide symbol="B2O3" formula="2.000336" analysis="36.490"/>
+</chemistry>
+</material>
+<material name="Borax Decahydrate" searchkey="Sodium TetraBorate Decahydrate" weight="371.24214474861" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="1.000000" analysis="30.810"/>
+<oxide symbol="B2O3" formula="2.000190" analysis="69.180"/>
+</chemistry>
+</material>
+<material name="Borax Pentahydrate" searchkey="Borax 5 Mol, Sodium Tetraborate" weight="351.41700404858" type="13" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="1.000000" analysis="16.250"/>
+<oxide symbol="B2O3" formula="2.658709" analysis="48.500"/>
+</chemistry>
+</material>
+<material name="Boric Acid" searchkey="Boracic acid, Orthoboric Acid, Hydrous Boric Oxide" weight="83.473254977213" type="13" property1="0">
+<chemistry>
+<oxide symbol="B2O3" formula="1.000000" analysis="100.000"/>
+</chemistry>
+</material>
+<material name="Boric Oxide" searchkey="" weight="69.6" property1="0">
+<chemistry>
+<oxide symbol="B2O3" formula="1.000000" analysis="100.000"/>
+</chemistry>
+</material>
+<material name="C &amp; C Ball Clay" searchkey="C&amp;C Ball Clay, C and C Ball Clay" weight="387.9802206162" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.006916" analysis="0.100"/>
+<oxide symbol="K2O" formula="0.016887" analysis="0.410"/>
+<oxide symbol="MgO" formula="0.019255" analysis="0.200"/>
+<oxide symbol="Na2O" formula="0.012515" analysis="0.200"/>
+<oxide symbol="TiO2" formula="0.079635" analysis="1.640"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="26.290"/>
+<oxide symbol="SiO2" formula="3.863018" analysis="59.840"/>
+<oxide symbol="Fe2O3" formula="0.022309" analysis="0.920"/>
+</chemistry>
+</material>
+<material name="Cadycal" searchkey="Cadycal Jan/00" weight="219.00150850103" type="13" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="0.003480" analysis="0.100"/>
+<oxide symbol="Fe2O3" formula="0.000674" analysis="0.050"/>
+<oxide symbol="B2O3" formula="1.472563" analysis="47.500"/>
+<oxide symbol="CaO" formula="1.000000" analysis="26.000"/>
+<oxide symbol="MgO" formula="0.012850" analysis="0.240"/>
+<oxide symbol="K2O" formula="0.000229" analysis="0.010"/>
+<oxide symbol="SrO" formula="0.000625" analysis="0.030"/>
+<oxide symbol="Al2O3" formula="0.002115" analysis="0.100"/>
+<oxide symbol="SiO2" formula="0.017951" analysis="0.500"/>
+</chemistry>
+</material>
+<material name="Calcined Alumina" searchkey="Alumina Calcined, Calcnd Alum, Ground Alumina" weight="102" type="3" property1="0">
+<chemistry>
+<oxide symbol="Al2O3" formula="1.000000" analysis="99.700"/>
+</chemistry>
+</material>
+<material name="Calcium Borate" searchkey="Anhydrous Borocalcite, Calcium Borate Frit" weight="125.70020165808" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="1.000000" analysis="44.630"/>
+<oxide symbol="B2O3" formula="1.000003" analysis="55.370"/>
+</chemistry>
+</material>
+<material name="Calcium Carbonate" searchkey="Carbonate of Lime, Whiting, Aragonite" weight="100" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="1.000000" analysis="56.100"/>
+</chemistry>
+</material>
+<material name="Calcium Feldspar" searchkey="Lime Spar, Lime Feldspar, Anorthite" weight="518.4842883549" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="1.000000" analysis="10.820"/>
+<oxide symbol="Al2O3" formula="0.999353" analysis="19.660"/>
+<oxide symbol="SiO2" formula="5.997509" analysis="69.520"/>
+</chemistry>
+</material>
+<material name="Calvert Clay" searchkey="" weight="428.57142857143" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.022918" analysis="0.300"/>
+<oxide symbol="K2O" formula="0.090992" analysis="2.000"/>
+<oxide symbol="MgO" formula="0.085076" analysis="0.800"/>
+<oxide symbol="Na2O" formula="0.028341" analysis="0.410"/>
+<oxide symbol="TiO2" formula="0.064903" analysis="1.210"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="23.800"/>
+<oxide symbol="SiO2" formula="4.120989" analysis="57.790"/>
+<oxide symbol="Fe2O3" formula="0.152946" analysis="5.710"/>
+</chemistry>
+</material>
+<material name="Camadil 95 Dolomite" searchkey="" weight="745.34534534535" type="13" property1="0">
+<chemistry>
+<oxide symbol="SiO2" formula="6.449251" analysis="0.380"/>
+<oxide symbol="Fe2O3" formula="1.593750" analysis="0.250"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="0.100"/>
+</chemistry>
+</material>
+<material name="Carbondale Clay" searchkey="Carbondale Red Clay" weight="531.36412711178" type="6" property1="0">
+<chemistry>
+<oxide symbol="BaO" formula="0.004862" analysis="0.140"/>
+<oxide symbol="CaO" formula="0.053141" analysis="0.560"/>
+<oxide symbol="K2O" formula="0.028822" analysis="0.510"/>
+<oxide symbol="MgO" formula="0.084543" analysis="0.640"/>
+<oxide symbol="Na2O" formula="0.050660" analysis="0.590"/>
+<oxide symbol="SrO" formula="0.000514" analysis="0.010"/>
+<oxide symbol="TiO2" formula="0.068627" analysis="1.030"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="19.160"/>
+<oxide symbol="P2O5" formula="0.003376" analysis="0.090"/>
+<oxide symbol="SiO2" formula="4.958646" analysis="55.980"/>
+<oxide symbol="Cr2O3" formula="0.001051" analysis="0.030"/>
+<oxide symbol="Fe2O3" formula="0.399935" analysis="12.020"/>
+<oxide symbol="MnO" formula="0.002253" analysis="0.030"/>
+</chemistry>
+</material>
+<material name="Cedar Heights Fireclay" searchkey="" weight="462.37533998187" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.046979" analysis="0.570"/>
+<oxide symbol="MgO" formula="0.012621" analysis="0.110"/>
+<oxide symbol="Na2O" formula="0.037288" analysis="0.500"/>
+<oxide symbol="TiO2" formula="0.017939" analysis="0.310"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="22.060"/>
+<oxide symbol="SiO2" formula="5.125365" analysis="66.620"/>
+<oxide symbol="Fe2O3" formula="0.049127" analysis="1.700"/>
+</chemistry>
+</material>
+<material name="Ceramitalc" searchkey="" weight="118.16080204449" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.146190" analysis="6.940"/>
+<oxide symbol="MgO" formula="0.850380" analysis="29.000"/>
+<oxide symbol="Na2O" formula="0.003431" analysis="0.180"/>
+<oxide symbol="Al2O3" formula="0.003244" analysis="0.280"/>
+<oxide symbol="SiO2" formula="1.116847" analysis="56.800"/>
+<oxide symbol="Fe2O3" formula="0.001477" analysis="0.200"/>
+<oxide symbol="MnO" formula="0.002167" analysis="0.130"/>
+</chemistry>
+</material>
+<material name="Cherry Ash" searchkey="Cherry Wood Ash, Cherry Ash Washed" weight="97.219092668243" property1="0">
+<chemistry>
+<oxide symbol="Fe2O3" formula="0.021267" analysis="3.500"/>
+<oxide symbol="SiO2" formula="0.541903" analysis="33.500"/>
+<oxide symbol="P2O5" formula="0.068512" analysis="10.000"/>
+<oxide symbol="MgO" formula="0.289486" analysis="12.000"/>
+<oxide symbol="CaO" formula="0.710514" analysis="41.000"/>
+</chemistry>
+</material>
+<material name="Chesterfield Feldspar" searchkey="" weight="640.7586163805" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.034265" analysis="0.300"/>
+<oxide symbol="K2O" formula="0.578179" analysis="8.500"/>
+<oxide symbol="Na2O" formula="0.387556" analysis="3.750"/>
+<oxide symbol="Al2O3" formula="1.026470" analysis="16.340"/>
+<oxide symbol="SiO2" formula="7.543040" analysis="70.750"/>
+<oxide symbol="Fe2O3" formula="0.002803" analysis="0.070"/>
+</chemistry>
+</material>
+<material name="CMC Gum" searchkey="C.M.C." weight="0" type="1" property1="0"/>
+<material name="Cobalt Carbonate" searchkey="" weight="118.92063492063" type="7" property1="0">
+<chemistry>
+<oxide symbol="CoO" formula="1.000000" analysis="63.000"/>
+</chemistry>
+</material>
+<material name="Colemanite" searchkey="Calcium Borate" weight="191.13162721263" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.928215" analysis="27.000"/>
+<oxide symbol="MgO" formula="0.071785" analysis="1.500"/>
+<oxide symbol="SiO2" formula="0.128361" analysis="4.000"/>
+<oxide symbol="Al2O3" formula="0.009454" analysis="0.500"/>
+<oxide symbol="B2O3" formula="1.191535" analysis="43.000"/>
+<oxide symbol="Fe2O3" formula="0.003616" analysis="0.300"/>
+</chemistry>
+</material>
+<material name="Cornwall Stone" searchkey="Cornish Stone, China Stone, Corn Stn" weight="733.36227283837" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.258172" analysis="2.000"/>
+<oxide symbol="K2O" formula="0.307504" analysis="4.000"/>
+<oxide symbol="P2O5" formula="0.025517" analysis="0.500"/>
+<oxide symbol="Na2O" formula="0.408807" analysis="3.500"/>
+<oxide symbol="TiO2" formula="0.009063" analysis="0.100"/>
+<oxide symbol="Al2O3" formula="1.171455" analysis="16.500"/>
+<oxide symbol="SiO2" formula="8.796102" analysis="73.000"/>
+<oxide symbol="Fe2O3" formula="0.006789" analysis="0.150"/>
+</chemistry>
+</material>
+<material name="Cristobalite" searchkey="Volcanic Quartz" weight="60.1" type="20" property1="0">
+<chemistry>
+<oxide symbol="SiO2" formula="1.000000" analysis="100.000"/>
+</chemistry>
+</material>
+<material name="Cryolite" searchkey="Cryloite" weight="112.89164086687" type="13" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="1.000000" analysis="29.450"/>
+<oxide symbol="Al2O3" formula="0.332921" analysis="16.130"/>
+</chemistry>
+</material>
+<material name="Custer Feldspar" searchkey="Custer Spar" weight="619.53036338917" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.033130" analysis="0.300"/>
+<oxide symbol="K2O" formula="0.676090" analysis="10.280"/>
+<oxide symbol="Na2O" formula="0.290780" analysis="2.910"/>
+<oxide symbol="Al2O3" formula="1.053809" analysis="17.350"/>
+<oxide symbol="SiO2" formula="7.112745" analysis="69.000"/>
+<oxide symbol="Fe2O3" formula="0.004646" analysis="0.120"/>
+</chemistry>
+</material>
+<material name="DF Cornwall Stone" searchkey="" weight="936.16548633137" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.033378" analysis="0.200"/>
+<oxide symbol="K2O" formula="0.377684" analysis="3.800"/>
+<oxide symbol="Na2O" formula="0.588937" analysis="3.900"/>
+<oxide symbol="Al2O3" formula="1.102400" analysis="12.010"/>
+<oxide symbol="SiO2" formula="12.395702" analysis="79.570"/>
+<oxide symbol="Fe2O3" formula="0.003511" analysis="0.060"/>
+</chemistry>
+</material>
+<material name="Diamond Kaolin" searchkey="" weight="267.91587231382" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.007196" analysis="0.150"/>
+<oxide symbol="K2O" formula="0.005143" analysis="0.180"/>
+<oxide symbol="MgO" formula="0.006678" analysis="0.100"/>
+<oxide symbol="Na2O" formula="0.003473" analysis="0.080"/>
+<oxide symbol="TiO2" formula="0.047157" analysis="1.400"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="37.900"/>
+<oxide symbol="SiO2" formula="2.041979" analysis="45.600"/>
+<oxide symbol="Fe2O3" formula="0.011774" analysis="0.700"/>
+</chemistry>
+</material>
+<material name="Disodium Octaborate Tetrahydrate" searchkey="" weight="412.78295605859" type="13" property1="0">
+<chemistry>
+<oxide symbol="B2O3" formula="4.003283" analysis="67.500"/>
+<oxide symbol="Na2O" formula="1.000000" analysis="15.020"/>
+</chemistry>
+</material>
+<material name="Dolomite" searchkey="Calcium Magnesium Carbonate" weight="183.99475237783" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="1.000000" analysis="30.490"/>
+<oxide symbol="MgO" formula="0.999872" analysis="21.900"/>
+</chemistry>
+</material>
+<material name="English Kaolin" searchkey="" weight="272.87319422151" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.000973" analysis="0.020"/>
+<oxide symbol="K2O" formula="0.051852" analysis="1.790"/>
+<oxide symbol="MgO" formula="0.018959" analysis="0.280"/>
+<oxide symbol="Na2O" formula="0.002201" analysis="0.050"/>
+<oxide symbol="TiO2" formula="0.002049" analysis="0.060"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="37.380"/>
+<oxide symbol="SiO2" formula="2.153928" analysis="47.440"/>
+<oxide symbol="Fe2O3" formula="0.013985" analysis="0.820"/>
+</chemistry>
+</material>
+<material name="EP Kaolin" searchkey="EPK, Edgar Plastic Kaolin, EPK Kaolin" weight="272.92312711754" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.008760" analysis="0.180"/>
+<oxide symbol="K2O" formula="0.009564" analysis="0.330"/>
+<oxide symbol="MgO" formula="0.006775" analysis="0.100"/>
+<oxide symbol="Na2O" formula="0.002642" analysis="0.060"/>
+<oxide symbol="TiO2" formula="0.012643" analysis="0.370"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="37.360"/>
+<oxide symbol="P2O5" formula="0.004618" analysis="0.240"/>
+<oxide symbol="SiO2" formula="2.077400" analysis="45.730"/>
+<oxide symbol="Fe2O3" formula="0.013480" analysis="0.790"/>
+</chemistry>
+</material>
+<material name="Eureka Feldspar" searchkey="" weight="640.83157540813" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.001143" analysis="0.010"/>
+<oxide symbol="K2O" formula="0.637878" analysis="9.370"/>
+<oxide symbol="Na2O" formula="0.360979" analysis="3.490"/>
+<oxide symbol="Al2O3" formula="1.071946" analysis="17.050"/>
+<oxide symbol="SiO2" formula="7.437157" analysis="69.700"/>
+<oxide symbol="Fe2O3" formula="0.004409" analysis="0.110"/>
+</chemistry>
+</material>
+<material name="F-2 Ball Clay" searchkey="Hick F-2, F2 Ball Clay" weight="453.53490440196" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.031529" analysis="0.390"/>
+<oxide symbol="K2O" formula="0.081848" analysis="1.700"/>
+<oxide symbol="MgO" formula="0.132797" analysis="1.180"/>
+<oxide symbol="Na2O" formula="0.013167" analysis="0.180"/>
+<oxide symbol="TiO2" formula="0.070954" analysis="1.250"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="22.490"/>
+<oxide symbol="SiO2" formula="4.551951" analysis="60.320"/>
+<oxide symbol="Fe2O3" formula="0.123588" analysis="4.360"/>
+</chemistry>
+</material>
+<material name="F-20 Feldspar" searchkey="F20 Feldspar" weight="557.31542842972" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.139822" analysis="1.400"/>
+<oxide symbol="K2O" formula="0.243862" analysis="4.100"/>
+<oxide symbol="Na2O" formula="0.616316" analysis="6.820"/>
+<oxide symbol="Al2O3" formula="1.035433" analysis="18.850"/>
+<oxide symbol="SiO2" formula="6.353341" analysis="68.150"/>
+<oxide symbol="Fe2O3" formula="0.002451" analysis="0.070"/>
+</chemistry>
+</material>
+<material name="F-4 Feldspar" searchkey="F4 Feldspar, Kona Feldspar, Kona F4, F4 Spar" weight="516.48928424787" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.156371" analysis="1.700"/>
+<oxide symbol="K2O" formula="0.262942" analysis="4.800"/>
+<oxide symbol="MgO" formula="0.006402" analysis="0.050"/>
+<oxide symbol="Na2O" formula="0.574285" analysis="6.900"/>
+<oxide symbol="Al2O3" formula="0.991575" analysis="19.600"/>
+<oxide symbol="SiO2" formula="5.735507" analysis="66.800"/>
+<oxide symbol="Fe2O3" formula="0.001290" analysis="0.040"/>
+</chemistry>
+</material>
+<material name="Flint" searchkey="Flint" weight="1870" type="20" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="1.000000" analysis="3.000"/>
+<oxide symbol="SiO2" formula="29.247920" analysis="94.000"/>
+</chemistry>
+</material>
+<material name="Fluorspar" searchkey="" weight="110.94402985075" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="1.000000" analysis="50.000"/>
+<oxide symbol="SiO2" formula="0.056007" analysis="3.000"/>
+</chemistry>
+</material>
+<material name="Frit 13" searchkey="" weight="226.6081871345" type="14" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="0.300073" analysis="8.210"/>
+<oxide symbol="PbO" formula="0.699927" analysis="68.940"/>
+<oxide symbol="B2O3" formula="0.390053" analysis="11.980"/>
+<oxide symbol="SiO2" formula="0.409855" analysis="10.870"/>
+</chemistry>
+</material>
+<material name="Frit 14" searchkey="" weight="190.94010222437" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.680033" analysis="20.000"/>
+<oxide symbol="Na2O" formula="0.319967" analysis="10.400"/>
+<oxide symbol="B2O3" formula="0.638572" analysis="23.300"/>
+<oxide symbol="SiO2" formula="1.472674" analysis="46.400"/>
+</chemistry>
+</material>
+<material name="Frit 22" searchkey="" weight="385.94642517984" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.470015" analysis="6.832"/>
+<oxide symbol="PbO" formula="0.529985" analysis="30.650"/>
+<oxide symbol="B2O3" formula="0.979949" analysis="17.672"/>
+<oxide symbol="SiO2" formula="2.879892" analysis="44.846"/>
+</chemistry>
+</material>
+<material name="Frit 240" searchkey="" weight="271.16996719718" type="14" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="0.279917" analysis="6.400"/>
+<oxide symbol="PbO" formula="0.720083" analysis="59.270"/>
+<oxide symbol="B2O3" formula="0.560262" analysis="14.380"/>
+<oxide symbol="SiO2" formula="0.900140" analysis="19.950"/>
+</chemistry>
+</material>
+<material name="Frit 266" searchkey="" weight="245.92062495033" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.679986" analysis="15.512"/>
+<oxide symbol="Na2O" formula="0.320014" analysis="8.068"/>
+<oxide symbol="B2O3" formula="1.100000" analysis="31.132"/>
+<oxide symbol="Al2O3" formula="0.320010" analysis="13.273"/>
+<oxide symbol="SiO2" formula="1.310008" analysis="32.015"/>
+</chemistry>
+</material>
+<material name="Frit 267" searchkey="" weight="301.96651625622" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.560011" analysis="10.404"/>
+<oxide symbol="K2O" formula="0.129987" analysis="4.055"/>
+<oxide symbol="Na2O" formula="0.310003" analysis="6.365"/>
+<oxide symbol="B2O3" formula="1.239972" analysis="28.580"/>
+<oxide symbol="Al2O3" formula="0.290006" analysis="9.796"/>
+<oxide symbol="SiO2" formula="2.049956" analysis="40.800"/>
+</chemistry>
+</material>
+<material name="Frit 285" searchkey="" weight="315.54015672784" type="14" property1="0">
+<chemistry>
+<oxide symbol="K2O" formula="0.099989" analysis="2.985"/>
+<oxide symbol="Na2O" formula="0.900011" analysis="17.684"/>
+<oxide symbol="B2O3" formula="0.940011" analysis="20.734"/>
+<oxide symbol="Al2O3" formula="0.209991" analysis="6.788"/>
+<oxide symbol="SiO2" formula="2.720078" analysis="51.808"/>
+</chemistry>
+</material>
+<material name="Frit 3110" searchkey="F3110, Ferro Frit 3110, Frit KFG 4110" weight="260.76313213502" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.292836" analysis="6.300"/>
+<oxide symbol="K2O" formula="0.063668" analysis="2.300"/>
+<oxide symbol="Na2O" formula="0.643496" analysis="15.300"/>
+<oxide symbol="B2O3" formula="0.097412" analysis="2.600"/>
+<oxide symbol="Al2O3" formula="0.094591" analysis="3.700"/>
+<oxide symbol="SiO2" formula="3.028497" analysis="69.800"/>
+</chemistry>
+</material>
+<material name="Frit 3124" searchkey="F3124, Ferro Frit 3124" weight="277.48426147894" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.697420" analysis="14.100"/>
+<oxide symbol="K2O" formula="0.020620" analysis="0.700"/>
+<oxide symbol="Na2O" formula="0.281960" analysis="6.300"/>
+<oxide symbol="B2O3" formula="0.546197" analysis="13.700"/>
+<oxide symbol="Al2O3" formula="0.269323" analysis="9.900"/>
+<oxide symbol="SiO2" formula="2.553225" analysis="55.300"/>
+</chemistry>
+</material>
+<material name="Frit 3134" searchkey="F3134, Ferro Frit 3134" weight="190.6876531636" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.683212" analysis="20.100"/>
+<oxide symbol="Na2O" formula="0.316788" analysis="10.300"/>
+<oxide symbol="B2O3" formula="0.632886" analysis="23.100"/>
+<oxide symbol="SiO2" formula="1.475370" analysis="46.500"/>
+</chemistry>
+</material>
+<material name="Frit 316" searchkey="" weight="364.0745187602" type="14" property1="0">
+<chemistry>
+<oxide symbol="PbO" formula="1.000000" analysis="61.300"/>
+<oxide symbol="Al2O3" formula="0.249880" analysis="7.000"/>
+<oxide symbol="SiO2" formula="1.919913" analysis="31.690"/>
+</chemistry>
+</material>
+<material name="Frit 3185" searchkey="F3185, Ferro Frit 3185" weight="805.19480519481" type="14" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="1.000000" analysis="7.700"/>
+<oxide symbol="B2O3" formula="4.419316" analysis="38.200"/>
+<oxide symbol="SiO2" formula="7.248093" analysis="54.100"/>
+</chemistry>
+</material>
+<material name="Frit 3191" searchkey="Ferro Frit 3191, F3191" weight="248.84349517008" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.499905" analysis="11.270"/>
+<oxide symbol="Na2O" formula="0.500095" analysis="12.460"/>
+<oxide symbol="B2O3" formula="1.000022" analysis="27.970"/>
+<oxide symbol="SiO2" formula="1.999857" analysis="48.300"/>
+</chemistry>
+</material>
+<material name="Frit 3195" searchkey="F3195, Ferro Frit 3195" weight="337.57920847328" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.673888" analysis="11.200"/>
+<oxide symbol="Na2O" formula="0.326112" analysis="5.990"/>
+<oxide symbol="B2O3" formula="1.114967" analysis="22.990"/>
+<oxide symbol="Al2O3" formula="0.410018" analysis="12.390"/>
+<oxide symbol="SiO2" formula="2.664419" analysis="47.440"/>
+</chemistry>
+</material>
+<material name="Frit 3211" searchkey="F3211, Ferro Frit 3211" weight="133.57142857143" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="1.000000" analysis="42.000"/>
+<oxide symbol="B2O3" formula="1.113095" analysis="58.000"/>
+</chemistry>
+</material>
+<material name="Frit 3227" searchkey="F3227 Frit, F3227, Ferro Frit 3227" weight="373.52741784878" type="14" property1="0">
+<chemistry>
+<oxide symbol="K2O" formula="0.162576" analysis="4.100"/>
+<oxide symbol="Na2O" formula="0.837424" analysis="13.900"/>
+<oxide symbol="B2O3" formula="1.529530" analysis="28.500"/>
+<oxide symbol="Al2O3" formula="0.571277" analysis="15.600"/>
+<oxide symbol="SiO2" formula="2.355522" analysis="37.900"/>
+</chemistry>
+</material>
+<material name="Frit 3249" searchkey="Ferro Frit 3249, F3249 Frit, F3249 (Ferro)" weight="273.88396913274" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.170872" analysis="3.500"/>
+<oxide symbol="MgO" formula="0.829128" analysis="12.200"/>
+<oxide symbol="B2O3" formula="1.137248" analysis="28.900"/>
+<oxide symbol="Al2O3" formula="0.357123" analysis="13.300"/>
+<oxide symbol="SiO2" formula="1.918555" analysis="42.100"/>
+</chemistry>
+</material>
+<material name="Frit 3269" searchkey="F3269, Ferro Frit 3269" weight="358.31112713011" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.006387" analysis="0.100"/>
+<oxide symbol="K2O" formula="0.308102" analysis="8.100"/>
+<oxide symbol="Na2O" formula="0.641493" analysis="11.100"/>
+<oxide symbol="ZnO" formula="0.044019" analysis="1.000"/>
+<oxide symbol="B2O3" formula="0.782519" analysis="15.200"/>
+<oxide symbol="Al2O3" formula="0.463697" analysis="13.200"/>
+<oxide symbol="SiO2" formula="2.963072" analysis="49.700"/>
+<oxide symbol="F" formula="0.301736" analysis="1.600"/>
+</chemistry>
+</material>
+<material name="Frit 3278" searchkey="F3278, Ferro Frit 3278" weight="270.4392246507" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.332626" analysis="6.900"/>
+<oxide symbol="Na2O" formula="0.667374" analysis="15.300"/>
+<oxide symbol="B2O3" formula="0.839294" analysis="21.600"/>
+<oxide symbol="SiO2" formula="2.528899" analysis="56.200"/>
+</chemistry>
+</material>
+<material name="Frit 3289" searchkey="F3289, Ferro Frit 3289" weight="373.90979366235" type="14" property1="0">
+<chemistry>
+<oxide symbol="BaO" formula="0.668306" analysis="27.400"/>
+<oxide symbol="Na2O" formula="0.331694" analysis="5.500"/>
+<oxide symbol="B2O3" formula="0.666161" analysis="12.400"/>
+<oxide symbol="Al2O3" formula="0.197952" analysis="5.400"/>
+<oxide symbol="SiO2" formula="3.067180" analysis="49.300"/>
+</chemistry>
+</material>
+<material name="Frit 3292" searchkey="F3292, Ferro Frit 3292" weight="292.75959159865" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.553164" analysis="10.600"/>
+<oxide symbol="K2O" formula="0.096343" analysis="3.100"/>
+<oxide symbol="Li2O" formula="0.039297" analysis="0.400"/>
+<oxide symbol="MgO" formula="0.050852" analysis="0.700"/>
+<oxide symbol="Na2O" formula="0.141658" analysis="3.000"/>
+<oxide symbol="SrO" formula="0.118686" analysis="4.200"/>
+<oxide symbol="B2O3" formula="0.239760" analysis="5.700"/>
+<oxide symbol="Al2O3" formula="0.309981" analysis="10.800"/>
+<oxide symbol="SiO2" formula="2.995793" analysis="61.500"/>
+</chemistry>
+</material>
+<material name="Frit 3300" searchkey="F3300, Ferro Frit 3300" weight="207.92291460667" type="14" property1="0">
+<chemistry>
+<oxide symbol="BaO" formula="0.084091" analysis="6.200"/>
+<oxide symbol="CaO" formula="0.326154" analysis="8.800"/>
+<oxide symbol="K2O" formula="0.070632" analysis="3.200"/>
+<oxide symbol="MgO" formula="0.020638" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.023475" analysis="0.700"/>
+<oxide symbol="PbO" formula="0.206805" analysis="22.200"/>
+<oxide symbol="ZnO" formula="0.268205" analysis="10.500"/>
+<oxide symbol="Al2O3" formula="0.187538" analysis="9.200"/>
+<oxide symbol="SiO2" formula="1.342331" analysis="38.800"/>
+</chemistry>
+</material>
+<material name="Frit 3304" searchkey="F3304, Ferro Frit 3304" weight="382.45373543523" type="14" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="0.067855" analysis="1.100"/>
+<oxide symbol="PbO" formula="0.932145" analysis="54.400"/>
+<oxide symbol="Al2O3" formula="0.149982" analysis="4.000"/>
+<oxide symbol="SiO2" formula="2.577267" analysis="40.500"/>
+</chemistry>
+</material>
+<material name="Frit 3327" searchkey="F3327, Ferro Frit 3327" weight="262.58823529412" type="14" property1="0">
+<chemistry>
+<oxide symbol="PbO" formula="1.000000" analysis="85.000"/>
+<oxide symbol="SiO2" formula="0.655378" analysis="15.000"/>
+</chemistry>
+</material>
+<material name="Frit 3419" searchkey="F3419, Ferro Frit 3419" weight="271.40077821012" type="14" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="0.280156" analysis="6.400"/>
+<oxide symbol="PbO" formula="0.719844" analysis="59.200"/>
+<oxide symbol="B2O3" formula="0.565418" analysis="14.500"/>
+<oxide symbol="SiO2" formula="0.898648" analysis="19.900"/>
+</chemistry>
+</material>
+<material name="Frit 3467" searchkey="F3467, Ferro Frit 3467" weight="343.39519603816" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.489506" analysis="7.997"/>
+<oxide symbol="K2O" formula="0.061935" analysis="1.699"/>
+<oxide symbol="MgO" formula="0.050955" analysis="0.598"/>
+<oxide symbol="Na2O" formula="0.132872" analysis="2.399"/>
+<oxide symbol="PbO" formula="0.264731" analysis="17.207"/>
+<oxide symbol="B2O3" formula="0.221776" analysis="4.495"/>
+<oxide symbol="Al2O3" formula="0.305689" analysis="9.080"/>
+<oxide symbol="SiO2" formula="3.229686" analysis="56.525"/>
+</chemistry>
+</material>
+<material name="Frit 3481" searchkey="F3481, Ferro Frit 3481" weight="293.3204788365" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.517573" analysis="9.900"/>
+<oxide symbol="K2O" formula="0.037051" analysis="1.190"/>
+<oxide symbol="Na2O" formula="0.146173" analysis="3.090"/>
+<oxide symbol="PbO" formula="0.299204" analysis="22.770"/>
+<oxide symbol="B2O3" formula="0.261265" analysis="6.200"/>
+<oxide symbol="Al2O3" formula="0.201278" analysis="7.000"/>
+<oxide symbol="SiO2" formula="2.433194" analysis="49.860"/>
+</chemistry>
+</material>
+<material name="Frit 349" searchkey="Ferro Frit 349" weight="312.87459354123" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.580017" analysis="10.400"/>
+<oxide symbol="K2O" formula="0.090010" analysis="2.710"/>
+<oxide symbol="Na2O" formula="0.089977" analysis="1.783"/>
+<oxide symbol="PbO" formula="0.239997" analysis="17.121"/>
+<oxide symbol="B2O3" formula="0.359986" analysis="8.008"/>
+<oxide symbol="Al2O3" formula="0.189995" analysis="6.194"/>
+<oxide symbol="SiO2" formula="2.799941" analysis="53.784"/>
+</chemistry>
+</material>
+<material name="Frit 3602" searchkey="F3602, Ferro Frit 3602" weight="341.96414891987" type="14" property1="0">
+<chemistry>
+<oxide symbol="PbO" formula="1.000000" analysis="65.270"/>
+<oxide symbol="Al2O3" formula="0.083815" analysis="2.500"/>
+<oxide symbol="SiO2" formula="1.833861" analysis="32.230"/>
+</chemistry>
+</material>
+<material name="Frit 5301" searchkey="F5301" weight="305.83507744764" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.130839" analysis="2.400"/>
+<oxide symbol="K2O" formula="0.178566" analysis="5.500"/>
+<oxide symbol="Na2O" formula="0.690595" analysis="14.000"/>
+<oxide symbol="B2O3" formula="0.549273" analysis="12.500"/>
+<oxide symbol="Al2O3" formula="0.362804" analysis="12.100"/>
+<oxide symbol="SiO2" formula="2.264503" analysis="44.500"/>
+<oxide symbol="F" formula="1.448692" analysis="9.000"/>
+</chemistry>
+</material>
+<material name="Frit 54" searchkey="" weight="190.87297689297" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.680134" analysis="19.990"/>
+<oxide symbol="Na2O" formula="0.319866" analysis="10.390"/>
+<oxide symbol="B2O3" formula="0.640083" analysis="23.340"/>
+<oxide symbol="SiO2" formula="1.469817" analysis="46.280"/>
+</chemistry>
+</material>
+<material name="Frit 67" searchkey="" weight="310.68441073421" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.689992" analysis="12.459"/>
+<oxide symbol="K2O" formula="0.119987" analysis="3.638"/>
+<oxide symbol="Na2O" formula="0.190020" analysis="3.792"/>
+<oxide symbol="B2O3" formula="1.159989" analysis="25.986"/>
+<oxide symbol="Al2O3" formula="0.369992" analysis="12.147"/>
+<oxide symbol="SiO2" formula="2.170005" analysis="41.977"/>
+</chemistry>
+</material>
+<material name="Frit 83" searchkey="" weight="342.26829417899" type="14" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="0.279887" analysis="5.070"/>
+<oxide symbol="PbO" formula="0.720113" analysis="46.960"/>
+<oxide symbol="B2O3" formula="0.260144" analysis="5.290"/>
+<oxide symbol="SiO2" formula="2.430617" analysis="42.680"/>
+</chemistry>
+</material>
+<material name="Frit B300" searchkey="B-300" weight="343.38461538462" type="14" property1="0">
+<chemistry>
+<oxide symbol="PbO" formula="1.000000" analysis="65.000"/>
+<oxide symbol="Al2O3" formula="0.100995" analysis="3.000"/>
+<oxide symbol="SiO2" formula="1.828337" analysis="32.000"/>
+</chemistry>
+</material>
+<material name="Frit CC-257" searchkey="Frit CC257" weight="280.6881723203" type="14" property1="0">
+<chemistry>
+<oxide symbol="BaO" formula="0.618931" analysis="33.800"/>
+<oxide symbol="CaO" formula="0.275212" analysis="5.500"/>
+<oxide symbol="K2O" formula="0.023542" analysis="0.790"/>
+<oxide symbol="MgO" formula="0.021594" analysis="0.310"/>
+<oxide symbol="Na2O" formula="0.045277" analysis="1.000"/>
+<oxide symbol="SrO" formula="0.015445" analysis="0.570"/>
+<oxide symbol="TiO2" formula="0.077294" analysis="2.200"/>
+<oxide symbol="Al2O3" formula="0.254846" analysis="9.260"/>
+<oxide symbol="SiO2" formula="2.172865" analysis="46.520"/>
+<oxide symbol="Fe2O3" formula="0.000702" analysis="0.040"/>
+</chemistry>
+</material>
+<material name="Frit F-12" searchkey="F12 Fusion" weight="190.7493528715" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.680033" analysis="20.000"/>
+<oxide symbol="Na2O" formula="0.319967" analysis="10.400"/>
+<oxide symbol="B2O3" formula="0.652275" analysis="23.800"/>
+<oxide symbol="Al2O3" formula="0.014961" analysis="0.800"/>
+<oxide symbol="SiO2" formula="1.428240" analysis="45.000"/>
+</chemistry>
+</material>
+<material name="Frit F-13" searchkey="Frit F13" weight="217.60666594938" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.698203" analysis="18.000"/>
+<oxide symbol="K2O" formula="0.003465" analysis="0.150"/>
+<oxide symbol="Na2O" formula="0.298332" analysis="8.500"/>
+<oxide symbol="B2O3" formula="0.578409" analysis="18.500"/>
+<oxide symbol="Al2O3" formula="0.096003" analysis="4.500"/>
+<oxide symbol="SiO2" formula="1.823044" analysis="50.350"/>
+</chemistry>
+</material>
+<material name="Frit F-134" searchkey="F134 Fusion" weight="290.10005551245" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.568824" analysis="11.000"/>
+<oxide symbol="K2O" formula="0.036955" analysis="1.200"/>
+<oxide symbol="Li2O" formula="0.038940" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.229273" analysis="4.900"/>
+<oxide symbol="SrO" formula="0.126009" analysis="4.500"/>
+<oxide symbol="B2O3" formula="0.250086" analysis="6.000"/>
+<oxide symbol="Al2O3" formula="0.327074" analysis="11.500"/>
+<oxide symbol="SiO2" formula="2.920308" analysis="60.500"/>
+</chemistry>
+</material>
+<material name="Frit F-18" searchkey="F18 Fusion, Fusion Frit F18, Frit F 18" weight="281.71240086677" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.592550" analysis="11.800"/>
+<oxide symbol="K2O" formula="0.071774" analysis="2.400"/>
+<oxide symbol="Na2O" formula="0.118137" analysis="2.600"/>
+<oxide symbol="SrO" formula="0.217539" analysis="8.000"/>
+<oxide symbol="B2O3" formula="0.360236" analysis="8.900"/>
+<oxide symbol="Al2O3" formula="0.187808" analysis="6.800"/>
+<oxide symbol="SiO2" formula="2.789000" analysis="59.500"/>
+</chemistry>
+</material>
+<material name="Frit F-19" searchkey="Frit F19, F19 Fusion" weight="273.207132197" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.691540" analysis="14.200"/>
+<oxide symbol="Na2O" formula="0.308460" analysis="7.000"/>
+<oxide symbol="B2O3" formula="0.573107" analysis="14.600"/>
+<oxide symbol="Al2O3" formula="0.259815" analysis="9.700"/>
+<oxide symbol="SiO2" formula="2.477502" analysis="54.500"/>
+</chemistry>
+</material>
+<material name="Frit F-2" searchkey="F2 Fusion" weight="424.53313804467" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.794581" analysis="10.500"/>
+<oxide symbol="Na2O" formula="0.205419" analysis="3.000"/>
+<oxide symbol="B2O3" formula="1.238222" analysis="20.300"/>
+<oxide symbol="Al2O3" formula="0.561882" analysis="13.500"/>
+<oxide symbol="SiO2" formula="3.461252" analysis="49.000"/>
+<oxide symbol="K2O" formula="0.166749" analysis="3.700"/>
+</chemistry>
+</material>
+<material name="Frit F-280" searchkey="F280 Fusion, Frit F280" weight="268.8061217048" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.679853" analysis="14.190"/>
+<oxide symbol="K2O" formula="0.017120" analysis="0.600"/>
+<oxide symbol="Na2O" formula="0.303027" analysis="6.990"/>
+<oxide symbol="Al2O3" formula="0.223719" analysis="8.490"/>
+<oxide symbol="B2O3" formula="0.578879" analysis="14.990"/>
+<oxide symbol="SiO2" formula="2.448530" analysis="54.750"/>
+</chemistry>
+</material>
+<material name="Frit F-309" searchkey="Frit F309, F 309, Fusion Frit 309" weight="189.5535640175" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.608193" analysis="18.000"/>
+<oxide symbol="MgO" formula="0.202253" analysis="4.300"/>
+<oxide symbol="Na2O" formula="0.189554" analysis="6.200"/>
+<oxide symbol="B2O3" formula="1.225562" analysis="45.000"/>
+<oxide symbol="Al2O3" formula="0.046459" analysis="2.500"/>
+<oxide symbol="SiO2" formula="0.756953" analysis="24.000"/>
+</chemistry>
+</material>
+<material name="Frit F-34" searchkey="" weight="240.66424494032" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.514790" analysis="12.000"/>
+<oxide symbol="Na2O" formula="0.485210" analysis="12.500"/>
+<oxide symbol="B2O3" formula="0.950900" analysis="27.500"/>
+<oxide symbol="SiO2" formula="1.922110" analysis="48.000"/>
+</chemistry>
+</material>
+<material name="Frit F-38" searchkey="F38" weight="306.99505132949" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.229836" analysis="4.200"/>
+<oxide symbol="Na2O" formula="0.272334" analysis="5.500"/>
+<oxide symbol="SrO" formula="0.497830" analysis="16.800"/>
+<oxide symbol="ZrO2" formula="0.029897" analysis="1.200"/>
+<oxide symbol="B2O3" formula="0.661627" analysis="15.000"/>
+<oxide symbol="Al2O3" formula="0.126410" analysis="4.200"/>
+<oxide symbol="SiO2" formula="2.712386" analysis="53.100"/>
+</chemistry>
+</material>
+<material name="Frit F-60" searchkey="F60 Fusion" weight="266.22273249139" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.355913" analysis="7.500"/>
+<oxide symbol="Na2O" formula="0.644087" analysis="15.000"/>
+<oxide symbol="B2O3" formula="0.822383" analysis="21.500"/>
+<oxide symbol="SiO2" formula="2.480611" analysis="56.000"/>
+</chemistry>
+</material>
+<material name="Frit F-69" searchkey="F69 Frit" weight="314.84375" type="14" property1="0">
+<chemistry>
+<oxide symbol="MgO" formula="1.000000" analysis="12.800"/>
+<oxide symbol="B2O3" formula="1.366132" analysis="30.200"/>
+<oxide symbol="Al2O3" formula="0.385838" analysis="12.500"/>
+<oxide symbol="SiO2" formula="2.331206" analysis="44.500"/>
+</chemistry>
+</material>
+<material name="Frit F-75" searchkey="F75 Fusion" weight="260.99494472829" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.297748" analysis="6.400"/>
+<oxide symbol="K2O" formula="0.058184" analysis="2.100"/>
+<oxide symbol="Na2O" formula="0.644068" analysis="15.300"/>
+<oxide symbol="B2O3" formula="0.093748" analysis="2.500"/>
+<oxide symbol="Al2O3" formula="0.094675" analysis="3.700"/>
+<oxide symbol="SiO2" formula="3.039875" analysis="70.000"/>
+</chemistry>
+</material>
+<material name="Frit FZ-25" searchkey="Frit FZ25" weight="320.58086222991" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.028572" analysis="0.500"/>
+<oxide symbol="K2O" formula="0.183772" analysis="5.400"/>
+<oxide symbol="Na2O" formula="0.760087" analysis="14.700"/>
+<oxide symbol="ZnO" formula="0.027568" analysis="0.700"/>
+<oxide symbol="B2O3" formula="0.778422" analysis="16.900"/>
+<oxide symbol="Al2O3" formula="0.380297" analysis="12.100"/>
+<oxide symbol="SiO2" formula="2.651060" analysis="49.700"/>
+</chemistry>
+</material>
+<material name="Frit GF-106" searchkey="General Frit 106, Frit GF106, GF 106, GC 106" weight="344.22205864989" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.020248" analysis="0.330"/>
+<oxide symbol="MgO" formula="0.059790" analysis="0.700"/>
+<oxide symbol="Na2O" formula="0.919961" analysis="16.570"/>
+<oxide symbol="Al2O3" formula="0.200121" analysis="5.930"/>
+<oxide symbol="SiO2" formula="4.379810" analysis="76.470"/>
+</chemistry>
+</material>
+<material name="Frit GF-111" searchkey="General Frit 111, Frit GF111" weight="191.17607306117" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.682986" analysis="20.040"/>
+<oxide symbol="Na2O" formula="0.317014" analysis="10.280"/>
+<oxide symbol="B2O3" formula="0.640064" analysis="23.300"/>
+<oxide symbol="SiO2" formula="1.475162" analysis="46.370"/>
+</chemistry>
+</material>
+<material name="Frit GF-113" searchkey="General Frit 113, Frit GF113" weight="274.77738889013" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.690058" analysis="14.090"/>
+<oxide symbol="K2O" formula="0.020125" analysis="0.690"/>
+<oxide symbol="Na2O" formula="0.289817" analysis="6.540"/>
+<oxide symbol="B2O3" formula="0.570027" analysis="14.440"/>
+<oxide symbol="Al2O3" formula="0.269901" analysis="10.020"/>
+<oxide symbol="SiO2" formula="2.479149" analysis="54.230"/>
+</chemistry>
+</material>
+<material name="Frit GF-115" searchkey="General Frit 115, Frit GF115" weight="333.65469013051" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.679799" analysis="11.430"/>
+<oxide symbol="Na2O" formula="0.320201" analysis="5.950"/>
+<oxide symbol="B2O3" formula="1.109785" analysis="23.150"/>
+<oxide symbol="Al2O3" formula="0.389918" analysis="11.920"/>
+<oxide symbol="SiO2" formula="2.639814" analysis="47.550"/>
+</chemistry>
+</material>
+<material name="Frit GF-134" searchkey="General Frit 134, Frit GF134" weight="262.50097647008" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.292945" analysis="6.260"/>
+<oxide symbol="K2O" formula="0.060476" analysis="2.170"/>
+<oxide symbol="Na2O" formula="0.646579" analysis="15.270"/>
+<oxide symbol="B2O3" formula="0.101088" analysis="2.680"/>
+<oxide symbol="Al2O3" formula="0.090855" analysis="3.530"/>
+<oxide symbol="SiO2" formula="3.061216" analysis="70.080"/>
+</chemistry>
+</material>
+<material name="Frit P-25" searchkey="Pemco 25, Pemco Frit 25" weight="320.58086222991" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.028572" analysis="0.500"/>
+<oxide symbol="K2O" formula="0.183772" analysis="5.400"/>
+<oxide symbol="Na2O" formula="0.760087" analysis="14.700"/>
+<oxide symbol="ZnO" formula="0.027568" analysis="0.700"/>
+<oxide symbol="B2O3" formula="0.778422" analysis="16.900"/>
+<oxide symbol="Al2O3" formula="0.380297" analysis="12.100"/>
+<oxide symbol="SiO2" formula="2.651060" analysis="49.700"/>
+</chemistry>
+</material>
+<material name="Frit P-311" searchkey="Pemco Frit 311, Frit P311" weight="275.02250609207" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.691233" analysis="14.100"/>
+<oxide symbol="K2O" formula="0.020437" analysis="0.700"/>
+<oxide symbol="Na2O" formula="0.288330" analysis="6.500"/>
+<oxide symbol="B2O3" formula="0.569012" analysis="14.400"/>
+<oxide symbol="Al2O3" formula="0.269630" analysis="10.000"/>
+<oxide symbol="SiO2" formula="2.484812" analysis="54.300"/>
+</chemistry>
+</material>
+<material name="Frit P-54" searchkey="Pemo Frit 54, Pemco Frit P54" weight="190.7493528715" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.680033" analysis="20.000"/>
+<oxide symbol="Na2O" formula="0.319967" analysis="10.400"/>
+<oxide symbol="B2O3" formula="0.638572" analysis="23.300"/>
+<oxide symbol="SiO2" formula="1.469500" analysis="46.300"/>
+</chemistry>
+</material>
+<material name="Frit P-926" searchkey="Pemo Frit 926, Pemco Frit P926" weight="225.57487105122" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.683560" analysis="17.000"/>
+<oxide symbol="K2O" formula="0.007184" analysis="0.300"/>
+<oxide symbol="Na2O" formula="0.309256" analysis="8.500"/>
+<oxide symbol="B2O3" formula="0.606070" analysis="18.700"/>
+<oxide symbol="Al2O3" formula="0.110576" analysis="5.000"/>
+<oxide symbol="SiO2" formula="1.895429" analysis="50.500"/>
+</chemistry>
+</material>
+<material name="Frit P2954" searchkey="PotteryCrafts Frit 2954" weight="207.0110701107" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="1.000000" analysis="27.100"/>
+<oxide symbol="B2O3" formula="1.500235" analysis="50.440"/>
+<oxide symbol="Al2O3" formula="0.097011" analysis="4.780"/>
+<oxide symbol="SiO2" formula="0.608978" analysis="17.680"/>
+</chemistry>
+</material>
+<material name="Frit RCG 2430" searchkey="F RCG 2430, RCG2430, RCG-2430" weight="279.82432802487" type="14" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.693326" analysis="13.900"/>
+<oxide symbol="K2O" formula="0.017823" analysis="0.600"/>
+<oxide symbol="Na2O" formula="0.288851" analysis="6.400"/>
+<oxide symbol="Al2O3" formula="0.266107" analysis="9.700"/>
+<oxide symbol="B2O3" formula="0.530701" analysis="13.200"/>
+<oxide symbol="SiO2" formula="2.616660" analysis="56.200"/>
+</chemistry>
+</material>
+<material name="G-200 Feldspar" searchkey="G200 Feldspar, G200 Spar, G 200 Spar, G 200" weight="557.45292883794" type="11" property1="0">
+<chemistry>
+<oxide symbol="Fe2O3" formula="0.002796" analysis="0.080"/>
+<oxide symbol="SiO2" formula="6.168759" analysis="66.300"/>
+<oxide symbol="Al2O3" formula="1.014216" analysis="18.500"/>
+<oxide symbol="Na2O" formula="0.274183" analysis="3.040"/>
+<oxide symbol="K2O" formula="0.638141" analysis="10.750"/>
+<oxide symbol="MgO" formula="0.006938" analysis="0.050"/>
+<oxide symbol="CaO" formula="0.080739" analysis="0.810"/>
+</chemistry>
+</material>
+<material name="Gerstley Bor (99)" searchkey="" weight="254.56757106879" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="0.121946" analysis="2.970"/>
+<oxide symbol="CaO" formula="0.878054" analysis="19.350"/>
+<oxide symbol="SiO2" formula="0.919154" analysis="21.700"/>
+<oxide symbol="B2O3" formula="0.962309" analysis="26.310"/>
+<oxide symbol="Al2O3" formula="0.178946" analysis="7.170"/>
+</chemistry>
+</material>
+<material name="Gerstley Borate" searchkey="Colemanite, Calcium Borate, Borocalcite" weight="167.53588348103" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.716731" analysis="24.000"/>
+<oxide symbol="K2O" formula="0.008893" analysis="0.500"/>
+<oxide symbol="MgO" formula="0.166289" analysis="4.000"/>
+<oxide symbol="Na2O" formula="0.108088" analysis="4.000"/>
+<oxide symbol="B2O3" formula="0.601781" analysis="25.000"/>
+<oxide symbol="Al2O3" formula="0.032850" analysis="2.000"/>
+<oxide symbol="SiO2" formula="0.390267" analysis="14.000"/>
+<oxide symbol="Fe2O3" formula="0.005235" analysis="0.500"/>
+</chemistry>
+</material>
+<material name="Gillespie Borate" searchkey="Gilespie Borate" weight="174.90438112948" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.716869" analysis="23.000"/>
+<oxide symbol="MgO" formula="0.169213" analysis="3.900"/>
+<oxide symbol="Na2O" formula="0.106322" analysis="3.770"/>
+<oxide symbol="SrO" formula="0.007595" analysis="0.450"/>
+<oxide symbol="Al2O3" formula="0.029142" analysis="1.700"/>
+<oxide symbol="B2O3" formula="0.615505" analysis="24.500"/>
+<oxide symbol="SiO2" formula="0.343307" analysis="11.800"/>
+</chemistry>
+</material>
+<material name="GK 129 Bentonite" searchkey="GK129" weight="662.26742504579" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.230224" analysis="1.950"/>
+<oxide symbol="K2O" formula="0.068202" analysis="0.970"/>
+<oxide symbol="MgO" formula="0.532500" analysis="3.240"/>
+<oxide symbol="Na2O" formula="0.278823" analysis="2.610"/>
+<oxide symbol="TiO2" formula="0.013263" analysis="0.160"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="15.400"/>
+<oxide symbol="SiO2" formula="7.501718" analysis="68.070"/>
+<oxide symbol="Fe2O3" formula="0.078239" analysis="1.890"/>
+</chemistry>
+</material>
+<material name="Glacier 200 Talc" searchkey="Cyprus Glacier 200 Talc" weight="122.93479246995" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.045702" analysis="2.000"/>
+<oxide symbol="MgO" formula="0.954298" analysis="30.000"/>
+<oxide symbol="Al2O3" formula="0.006284" analysis="0.500"/>
+<oxide symbol="SiO2" formula="1.279807" analysis="60.000"/>
+<oxide symbol="Fe2O3" formula="0.008012" analysis="1.000"/>
+</chemistry>
+</material>
+<material name="Glass Cullet" searchkey="Powdered Glass, Cullet" weight="206.89627622453" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.373187" analysis="10.120"/>
+<oxide symbol="K2O" formula="0.001977" analysis="0.090"/>
+<oxide symbol="MgO" formula="0.168375" analysis="3.280"/>
+<oxide symbol="Na2O" formula="0.456461" analysis="13.680"/>
+<oxide symbol="Al2O3" formula="0.023121" analysis="1.140"/>
+<oxide symbol="SiO2" formula="2.460133" analysis="71.470"/>
+<oxide symbol="Fe2O3" formula="0.002974" analysis="0.230"/>
+</chemistry>
+</material>
+<material name="Gleason Ball Clay" searchkey="" weight="389.13791731636" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.006227" analysis="0.090"/>
+<oxide symbol="K2O" formula="0.013185" analysis="0.320"/>
+<oxide symbol="MgO" formula="0.003852" analysis="0.040"/>
+<oxide symbol="Na2O" formula="0.004382" analysis="0.070"/>
+<oxide symbol="TiO2" formula="0.071894" analysis="1.480"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="26.280"/>
+<oxide symbol="P2O5" formula="0.003009" analysis="0.110"/>
+<oxide symbol="SiO2" formula="3.797324" analysis="58.800"/>
+<oxide symbol="Fe2O3" formula="0.034204" analysis="1.410"/>
+<oxide symbol="MnO" formula="0.000547" analysis="0.010"/>
+</chemistry>
+</material>
+<material name="Glomax LL Calcined Kaolin" searchkey="Glomax Kaolin, Ajax Glomax Kaolin" weight="229.752790333" type="15" property1="0">
+<chemistry>
+<oxide symbol="K2O" formula="0.009999" analysis="0.410"/>
+<oxide symbol="Na2O" formula="0.011116" analysis="0.300"/>
+<oxide symbol="TiO2" formula="0.027027" analysis="0.940"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="44.400"/>
+<oxide symbol="SiO2" formula="2.032019" analysis="53.160"/>
+<oxide symbol="Fe2O3" formula="0.006030" analysis="0.420"/>
+</chemistry>
+</material>
+<material name="Goldart" searchkey="Cedar Heights Goldart" weight="353.77314814815" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.012626" analysis="0.200"/>
+<oxide symbol="K2O" formula="0.071435" analysis="1.900"/>
+<oxide symbol="MgO" formula="0.035153" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.011425" analysis="0.200"/>
+<oxide symbol="TiO2" formula="0.079787" analysis="1.800"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="28.800"/>
+<oxide symbol="SiO2" formula="3.252912" analysis="55.200"/>
+<oxide symbol="Fe2O3" formula="0.030990" analysis="1.400"/>
+</chemistry>
+</material>
+<material name="Grolleg Kaolin" searchkey="" weight="276.11430045798" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.004914" analysis="0.100"/>
+<oxide symbol="K2O" formula="0.055603" analysis="1.900"/>
+<oxide symbol="MgO" formula="0.020522" analysis="0.300"/>
+<oxide symbol="Na2O" formula="0.004446" analysis="0.100"/>
+<oxide symbol="TiO2" formula="0.001035" analysis="0.030"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="37.000"/>
+<oxide symbol="SiO2" formula="2.201736" analysis="48.000"/>
+<oxide symbol="Fe2O3" formula="0.012061" analysis="0.700"/>
+</chemistry>
+</material>
+<material name="Gunheath Kaolin" searchkey="" weight="263.36173508908" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.008920" analysis="0.190"/>
+<oxide symbol="K2O" formula="0.041937" analysis="1.500"/>
+<oxide symbol="MgO" formula="0.007189" analysis="0.110"/>
+<oxide symbol="TiO2" formula="0.002967" analysis="0.090"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="38.730"/>
+<oxide symbol="SiO2" formula="2.052118" analysis="46.830"/>
+<oxide symbol="Fe2O3" formula="0.010041" analysis="0.610"/>
+</chemistry>
+</material>
+<material name="Hawthorne Bond" searchkey="Hawthorne Fireclay, Hawthorn" weight="289.457756917" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.015496" analysis="0.300"/>
+<oxide symbol="K2O" formula="0.039990" analysis="1.300"/>
+<oxide symbol="MgO" formula="0.050333" analysis="0.700"/>
+<oxide symbol="Na2O" formula="0.004674" analysis="0.100"/>
+<oxide symbol="TiO2" formula="0.068907" analysis="1.900"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="35.200"/>
+<oxide symbol="SiO2" formula="2.458970" analysis="51.000"/>
+<oxide symbol="Fe2O3" formula="0.025355" analysis="1.400"/>
+</chemistry>
+</material>
+<material name="Hectalite 200" searchkey="Hectalite" weight="148.05883653556" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.245181" analysis="9.290"/>
+<oxide symbol="K2O" formula="0.004715" analysis="0.300"/>
+<oxide symbol="MgO" formula="0.688492" analysis="18.740"/>
+<oxide symbol="Na2O" formula="0.061612" analysis="2.580"/>
+<oxide symbol="Al2O3" formula="0.021193" analysis="1.460"/>
+<oxide symbol="SiO2" formula="1.403972" analysis="56.990"/>
+<oxide symbol="Fe2O3" formula="0.010549" analysis="1.140"/>
+</chemistry>
+</material>
+<material name="Helmer Kaolin" searchkey="Helmar Kaolin" weight="280.06837212875" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.024242" analysis="0.480"/>
+<oxide symbol="K2O" formula="0.015941" analysis="0.530"/>
+<oxide symbol="MgO" formula="0.018280" analysis="0.260"/>
+<oxide symbol="Na2O" formula="0.003656" analysis="0.080"/>
+<oxide symbol="TiO2" formula="0.040071" analysis="1.130"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="36.000"/>
+<oxide symbol="SiO2" formula="2.168608" analysis="46.000"/>
+<oxide symbol="Fe2O3" formula="0.023021" analysis="1.300"/>
+</chemistry>
+</material>
+<material name="Hydrous Sodium Carbonate" searchkey="" weight="285.9778597786" type="1" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="1.000000" analysis="21.680"/>
+</chemistry>
+</material>
+<material name="Hyplas 64" searchkey="Hy Plas 64" weight="425" property1="0">
+<chemistry>
+<oxide symbol="Fe2O3" formula="0.026563" analysis="1.000"/>
+<oxide symbol="SiO2" formula="4.455075" analysis="63.000"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="24.000"/>
+<oxide symbol="TiO2" formula="0.085106" analysis="1.600"/>
+<oxide symbol="Na2O" formula="0.034274" analysis="0.500"/>
+<oxide symbol="K2O" formula="0.108280" analysis="2.400"/>
+<oxide symbol="MgO" formula="0.042184" analysis="0.400"/>
+<oxide symbol="CaO" formula="0.015152" analysis="0.200"/>
+</chemistry>
+</material>
+<material name="Imco 400 Fireclay" searchkey="" weight="296.61236798441" type="12" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.002114" analysis="0.040"/>
+<oxide symbol="K2O" formula="0.034625" analysis="1.100"/>
+<oxide symbol="MgO" formula="0.041203" analysis="0.560"/>
+<oxide symbol="Na2O" formula="0.002869" analysis="0.060"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="34.400"/>
+<oxide symbol="SiO2" formula="2.447084" analysis="49.600"/>
+<oxide symbol="Fe2O3" formula="0.047627" analysis="2.570"/>
+</chemistry>
+</material>
+<material name="IMCO Borate" searchkey="" weight="195.4790056138" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.729013" analysis="19.200"/>
+<oxide symbol="B2O3" formula="0.746753" analysis="24.400"/>
+<oxide symbol="Na2O" formula="0.103069" analysis="3.000"/>
+<oxide symbol="MgO" formula="0.095140" analysis="1.800"/>
+<oxide symbol="K2O" formula="0.031657" analysis="1.400"/>
+<oxide symbol="Fe2O3" formula="0.003994" analysis="0.300"/>
+<oxide symbol="SrO" formula="0.041121" analysis="2.000"/>
+<oxide symbol="Al2O3" formula="0.008353" analysis="0.400"/>
+<oxide symbol="SiO2" formula="0.747833" analysis="21.100"/>
+</chemistry>
+</material>
+<material name="Iron Oxide Black" searchkey="Fe3O4, Black Iron Oxide" weight="245.39877300613" type="7" property1="0">
+<chemistry>
+<oxide symbol="Fe2O3" formula="1.000000" analysis="65.200"/>
+<oxide symbol="FeO" formula="0.983995" analysis="32.800"/>
+</chemistry>
+</material>
+<material name="Iron Oxide Red" searchkey="Iron Oxide, Red Iron Oxide, RIO" weight="163.26530612245" type="7" property1="0">
+<chemistry>
+<oxide symbol="Fe2O3" formula="1.000000" analysis="98.000"/>
+</chemistry>
+</material>
+<material name="Jackson Ball Clay" searchkey="" weight="357.1280958891" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.025608" analysis="0.400"/>
+<oxide symbol="K2O" formula="0.011438" analysis="0.300"/>
+<oxide symbol="MgO" formula="0.026736" analysis="0.300"/>
+<oxide symbol="Na2O" formula="0.005793" analysis="0.100"/>
+<oxide symbol="TiO2" formula="0.076416" analysis="1.700"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="28.400"/>
+<oxide symbol="SiO2" formula="3.340559" analysis="55.900"/>
+<oxide symbol="Fe2O3" formula="0.022447" analysis="1.000"/>
+</chemistry>
+</material>
+<material name="Jasper Slip" searchkey="" weight="428.01981037226" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.541701" analysis="7.100"/>
+<oxide symbol="K2O" formula="0.122681" analysis="2.700"/>
+<oxide symbol="MgO" formula="0.308004" analysis="2.900"/>
+<oxide symbol="Na2O" formula="0.027614" analysis="0.400"/>
+<oxide symbol="TiO2" formula="0.042856" analysis="0.800"/>
+<oxide symbol="Al2O3" formula="0.591674" analysis="14.100"/>
+<oxide symbol="SiO2" formula="3.924108" analysis="55.100"/>
+<oxide symbol="Fe2O3" formula="0.149807" analysis="5.600"/>
+</chemistry>
+</material>
+<material name="Jordan Fireclay" searchkey="Maryland Ball/Stoneware Clay" weight="505.3967202281" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.018020" analysis="0.200"/>
+<oxide symbol="K2O" formula="0.106778" analysis="1.990"/>
+<oxide symbol="MgO" formula="0.062711" analysis="0.500"/>
+<oxide symbol="Na2O" formula="0.016305" analysis="0.200"/>
+<oxide symbol="TiO2" formula="0.075913" analysis="1.200"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="20.180"/>
+<oxide symbol="SiO2" formula="5.654154" analysis="67.230"/>
+<oxide symbol="Fe2O3" formula="0.054020" analysis="1.710"/>
+</chemistry>
+</material>
+<material name="K&amp;T Special" searchkey="" weight="372.26277372263" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.019907" analysis="0.300"/>
+<oxide symbol="K2O" formula="0.035567" analysis="0.900"/>
+<oxide symbol="MgO" formula="0.046186" analysis="0.500"/>
+<oxide symbol="Na2O" formula="0.012008" analysis="0.200"/>
+<oxide symbol="TiO2" formula="0.069887" analysis="1.500"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="27.400"/>
+<oxide symbol="SiO2" formula="3.301432" analysis="53.300"/>
+<oxide symbol="Fe2O3" formula="0.025593" analysis="1.100"/>
+</chemistry>
+</material>
+<material name="K-200 Feldspar" searchkey="K200 Feldspar" weight="605.61480769675" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.019453" analysis="0.180"/>
+<oxide symbol="K2O" formula="0.651980" analysis="10.130"/>
+<oxide symbol="Na2O" formula="0.328567" analysis="3.360"/>
+<oxide symbol="Al2O3" formula="1.060402" analysis="17.840"/>
+<oxide symbol="SiO2" formula="6.858775" analysis="67.990"/>
+<oxide symbol="Fe2O3" formula="0.003031" analysis="0.080"/>
+</chemistry>
+</material>
+<material name="Kaolin" searchkey="China Clay" weight="253.66824173091" type="15" property1="0">
+<chemistry>
+<oxide symbol="Al2O3" formula="1.000000" analysis="40.210"/>
+<oxide symbol="SiO2" formula="1.996002" analysis="47.290"/>
+</chemistry>
+</material>
+<material name="Kaopaque 20 Kaolin" searchkey="Kaopaque" weight="253.14191533657" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.009715" analysis="0.210"/>
+<oxide symbol="K2O" formula="0.002204" analysis="0.080"/>
+<oxide symbol="MgO" formula="0.001932" analysis="0.030"/>
+<oxide symbol="Na2O" formula="0.001256" analysis="0.030"/>
+<oxide symbol="TiO2" formula="0.021439" analysis="0.660"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="39.300"/>
+<oxide symbol="SiO2" formula="1.951963" analysis="45.200"/>
+<oxide symbol="Fe2O3" formula="0.005191" analysis="0.320"/>
+</chemistry>
+</material>
+<material name="Kingman Feldspar" searchkey="" weight="573.2105249863" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.010219" analysis="0.100"/>
+<oxide symbol="K2O" formula="0.730886" analysis="12.010"/>
+<oxide symbol="Na2O" formula="0.258895" analysis="2.800"/>
+<oxide symbol="Al2O3" formula="1.052115" analysis="18.720"/>
+<oxide symbol="SiO2" formula="6.311670" analysis="66.170"/>
+<oxide symbol="Fe2O3" formula="0.003941" analysis="0.110"/>
+</chemistry>
+</material>
+<material name="KT #1-4 Ball Clay" searchkey="KT1-4, KT#1-4" weight="368.94270439177" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.019907" analysis="0.300"/>
+<oxide symbol="K2O" formula="0.039518" analysis="1.000"/>
+<oxide symbol="MgO" formula="0.036949" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.018013" analysis="0.300"/>
+<oxide symbol="TiO2" formula="0.055909" analysis="1.200"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="27.400"/>
+<oxide symbol="SiO2" formula="3.543000" analysis="57.200"/>
+<oxide symbol="Fe2O3" formula="0.025593" analysis="1.100"/>
+</chemistry>
+</material>
+<material name="KTS-2 Ball Clay" searchkey="KTS2 Ball Clay" weight="419.75308641975" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.022447" analysis="0.300"/>
+<oxide symbol="K2O" formula="0.057928" analysis="1.300"/>
+<oxide symbol="MgO" formula="0.041663" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.013540" analysis="0.200"/>
+<oxide symbol="TiO2" formula="0.073549" analysis="1.400"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="24.300"/>
+<oxide symbol="SiO2" formula="4.274358" analysis="61.200"/>
+<oxide symbol="Fe2O3" formula="0.026235" analysis="1.000"/>
+</chemistry>
+</material>
+<material name="KY Special" searchkey="" weight="370.48128342246" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.033058" analysis="0.500"/>
+<oxide symbol="K2O" formula="0.043312" analysis="1.100"/>
+<oxide symbol="MgO" formula="0.046018" analysis="0.500"/>
+<oxide symbol="TiO2" formula="0.060348" analysis="1.300"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="27.500"/>
+<oxide symbol="SiO2" formula="3.363485" analysis="54.500"/>
+<oxide symbol="Fe2O3" formula="0.027818" analysis="1.200"/>
+</chemistry>
+</material>
+<material name="Kyanite" searchkey="" weight="170.26672843734" type="19" property1="0">
+<chemistry>
+<oxide symbol="MgO" formula="0.002535" analysis="0.060"/>
+<oxide symbol="CaO" formula="0.001518" analysis="0.050"/>
+<oxide symbol="K2O" formula="0.003615" analysis="0.200"/>
+<oxide symbol="Na2O" formula="0.005493" analysis="0.200"/>
+<oxide symbol="TiO2" formula="0.019607" analysis="0.920"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="59.900"/>
+<oxide symbol="SiO2" formula="1.061370" analysis="37.460"/>
+<oxide symbol="Fe2O3" formula="0.009685" analysis="0.910"/>
+</chemistry>
+</material>
+<material name="Laguna Borate" searchkey="" weight="211.26084492718" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.711734" analysis="18.900"/>
+<oxide symbol="MgO" formula="0.120571" analysis="2.300"/>
+<oxide symbol="K2O" formula="0.031398" analysis="1.400"/>
+<oxide symbol="Na2O" formula="0.136297" analysis="4.000"/>
+<oxide symbol="Al2O3" formula="0.167766" analysis="8.100"/>
+<oxide symbol="B2O3" formula="0.834723" analysis="27.500"/>
+<oxide symbol="SiO2" formula="0.657334" analysis="18.700"/>
+<oxide symbol="Fe2O3" formula="0.001320" analysis="0.100"/>
+</chemistry>
+</material>
+<material name="Lead Carbonate" searchkey="" weight="258.00485493007" type="13" property1="0">
+<chemistry>
+<oxide symbol="PbO" formula="1.000000" analysis="86.510"/>
+</chemistry>
+</material>
+<material name="Lepidolite" searchkey="" weight="558.64283909063" type="11" property1="0">
+<chemistry>
+<oxide symbol="K2O" formula="0.434958" analysis="7.300"/>
+<oxide symbol="Li2O" formula="0.565042" analysis="3.000"/>
+<oxide symbol="Al2O3" formula="1.480225" analysis="26.900"/>
+<oxide symbol="SiO2" formula="4.454710" analysis="47.700"/>
+</chemistry>
+</material>
+<material name="Light Magnesium Carbonate" searchkey="" weight="89.555555555556" type="13" property1="0">
+<chemistry>
+<oxide symbol="MgO" formula="1.000000" analysis="45.000"/>
+</chemistry>
+</material>
+<material name="Limestone" searchkey="" weight="103.65131754312" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.791336" analysis="42.570"/>
+<oxide symbol="K2O" formula="0.003653" analysis="0.330"/>
+<oxide symbol="MgO" formula="0.204170" analysis="7.890"/>
+<oxide symbol="Na2O" formula="0.000841" analysis="0.050"/>
+<oxide symbol="TiO2" formula="0.000783" analysis="0.060"/>
+<oxide symbol="Al2O3" formula="0.008281" analysis="0.810"/>
+<oxide symbol="P2O5" formula="0.000294" analysis="0.040"/>
+<oxide symbol="SiO2" formula="0.086759" analysis="5.000"/>
+<oxide symbol="Fe2O3" formula="0.003520" analysis="0.540"/>
+</chemistry>
+</material>
+<material name="Litharge" searchkey="Yellow Lead Oxide" weight="223.2" type="13" property1="0">
+<chemistry>
+<oxide symbol="PbO" formula="1.000000" analysis="100.000"/>
+</chemistry>
+</material>
+<material name="Lithium Carbonate" searchkey="Lith Carb" weight="73.146784486991" type="13" property1="0">
+<chemistry>
+<oxide symbol="Li2O" formula="1.000000" analysis="40.740"/>
+</chemistry>
+</material>
+<material name="Lithospar" searchkey="" weight="612.86863302498" type="11" property1="0">
+<chemistry>
+<oxide symbol="K2O" formula="0.189326" analysis="2.910"/>
+<oxide symbol="Li2O" formula="0.411321" analysis="2.000"/>
+<oxide symbol="Na2O" formula="0.399353" analysis="4.040"/>
+<oxide symbol="Al2O3" formula="1.303247" analysis="21.690"/>
+<oxide symbol="SiO2" formula="7.072973" analysis="69.360"/>
+</chemistry>
+</material>
+<material name="M&amp;D Ball Clay" searchkey="" weight="373.21624588364" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.033263" analysis="0.500"/>
+<oxide symbol="K2O" formula="0.019810" analysis="0.500"/>
+<oxide symbol="MgO" formula="0.046305" analysis="0.500"/>
+<oxide symbol="TiO2" formula="0.061191" analysis="1.310"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="27.330"/>
+<oxide symbol="SiO2" formula="3.568221" analysis="57.460"/>
+<oxide symbol="Fe2O3" formula="0.053883" analysis="2.310"/>
+</chemistry>
+</material>
+<material name="Magnesium Carbonate" searchkey="Mag Carb" weight="93.674590974701" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.008265" analysis="0.500"/>
+<oxide symbol="MgO" formula="0.989497" analysis="43.000"/>
+<oxide symbol="SrO" formula="0.002238" analysis="0.250"/>
+<oxide symbol="Al2O3" formula="0.001364" analysis="0.150"/>
+<oxide symbol="Fe2O3" formula="0.000232" analysis="0.040"/>
+</chemistry>
+</material>
+<material name="Manganese Carbonate" searchkey="" weight="115.06004543979" type="7" property1="0">
+<chemistry>
+<oxide symbol="MnO" formula="1.000000" analysis="61.620"/>
+</chemistry>
+</material>
+<material name="Manganese Dioxide Mno2" searchkey="Manganese Dioxide" weight="86.9" type="7" property1="0">
+<chemistry>
+<oxide symbol="MnO2" formula="1.000000" analysis="100.000"/>
+</chemistry>
+</material>
+<material name="Mastercast Kaolin" searchkey="" weight="263.78356938287" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.001419" analysis="0.030"/>
+<oxide symbol="K2O" formula="0.003380" analysis="0.120"/>
+<oxide symbol="MgO" formula="0.001317" analysis="0.020"/>
+<oxide symbol="Na2O" formula="0.000428" analysis="0.010"/>
+<oxide symbol="TiO2" formula="0.059114" analysis="1.780"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="38.440"/>
+<oxide symbol="SiO2" formula="1.994750" analysis="45.180"/>
+<oxide symbol="Fe2O3" formula="0.006302" analysis="0.380"/>
+</chemistry>
+</material>
+<material name="Masterfil Kaolin" searchkey="" weight="268.95874444003" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.004813" analysis="0.100"/>
+<oxide symbol="K2O" formula="0.006305" analysis="0.220"/>
+<oxide symbol="MgO" formula="0.003350" analysis="0.050"/>
+<oxide symbol="Na2O" formula="0.000871" analysis="0.020"/>
+<oxide symbol="TiO2" formula="0.060147" analysis="1.780"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="37.780"/>
+<oxide symbol="SiO2" formula="2.062840" analysis="45.920"/>
+<oxide symbol="Fe2O3" formula="0.011643" analysis="0.690"/>
+</chemistry>
+</material>
+<material name="Masterfloat Kaolin" searchkey="" weight="263.78356938287" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.001419" analysis="0.030"/>
+<oxide symbol="K2O" formula="0.003380" analysis="0.120"/>
+<oxide symbol="MgO" formula="0.001317" analysis="0.020"/>
+<oxide symbol="Na2O" formula="0.000428" analysis="0.010"/>
+<oxide symbol="TiO2" formula="0.059114" analysis="1.780"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="38.440"/>
+<oxide symbol="SiO2" formula="1.994750" analysis="45.180"/>
+<oxide symbol="Fe2O3" formula="0.006302" analysis="0.380"/>
+</chemistry>
+</material>
+<material name="Mullite" searchkey="Mulite" weight="178.94736842105" type="4" property1="0">
+<chemistry>
+<oxide symbol="K2O" formula="0.003799" analysis="0.200"/>
+<oxide symbol="Fe2O3" formula="0.011184" analysis="1.000"/>
+<oxide symbol="Na2O" formula="0.005772" analysis="0.200"/>
+<oxide symbol="TiO2" formula="0.013438" analysis="0.600"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="57.000"/>
+<oxide symbol="SiO2" formula="1.220772" analysis="41.000"/>
+</chemistry>
+</material>
+<material name="Murrays Borate" searchkey="Murray Borate" weight="186.64176821906" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.828410" analysis="24.900"/>
+<oxide symbol="Na2O" formula="0.171590" analysis="5.700"/>
+<oxide symbol="Al2O3" formula="0.009149" analysis="0.500"/>
+<oxide symbol="B2O3" formula="0.968070" analysis="36.100"/>
+<oxide symbol="SiO2" formula="0.863335" analysis="27.800"/>
+</chemistry>
+</material>
+<material name="Navajo Pumice" searchkey="" weight="12042.375" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="1.000000" analysis="0.440"/>
+<oxide symbol="K2O" formula="7.444268" analysis="5.500"/>
+<oxide symbol="MgO" formula="0.537841" analysis="0.170"/>
+<oxide symbol="Al2O3" formula="0.000000" analysis="0.000"/>
+<oxide symbol="SiO2" formula="157.412646" analysis="74.200"/>
+<oxide symbol="Fe2O3" formula="1.290938" analysis="1.620"/>
+</chemistry>
+</material>
+<material name="NC-4 Feldspar" searchkey="NC4 Feldspar, Spruce Pine #4 Spar" weight="554.6860996634" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.139107" analysis="1.400"/>
+<oxide symbol="K2O" formula="0.242614" analysis="4.100"/>
+<oxide symbol="MgO" formula="0.006916" analysis="0.050"/>
+<oxide symbol="Na2O" formula="0.611364" analysis="6.800"/>
+<oxide symbol="Al2O3" formula="1.030134" analysis="18.850"/>
+<oxide symbol="SiO2" formula="6.320827" analysis="68.150"/>
+<oxide symbol="Fe2O3" formula="0.002439" analysis="0.070"/>
+</chemistry>
+</material>
+<material name="Nepheline Syenite" searchkey="Neph Sy" weight="435.13900166261" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.054623" analysis="0.700"/>
+<oxide symbol="K2O" formula="0.213772" analysis="4.600"/>
+<oxide symbol="Na2O" formula="0.691956" analysis="9.800"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="23.300"/>
+<oxide symbol="SiO2" formula="4.421386" analysis="60.700"/>
+<oxide symbol="MgO" formula="0.010863" analysis="0.100"/>
+<oxide symbol="Fe2O3" formula="0.002736" analysis="0.100"/>
+</chemistry>
+</material>
+<material name="Newman Red Clay" searchkey="Newman Fireclay" weight="565.43673761514" type="6" property1="0">
+<chemistry>
+<oxide symbol="MgO" formula="0.205341" analysis="1.350"/>
+<oxide symbol="Na2O" formula="0.022740" analysis="0.230"/>
+<oxide symbol="TiO2" formula="0.157273" analysis="2.050"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="16.640"/>
+<oxide symbol="SiO2" formula="6.084931" analysis="59.660"/>
+<oxide symbol="Fe2O3" formula="0.213777" analysis="5.580"/>
+</chemistry>
+</material>
+<material name="Nickel Carbonate" searchkey="" weight="118.57142857143" type="7" property1="0">
+<chemistry>
+<oxide symbol="NiO" formula="1.000000" analysis="63.000"/>
+</chemistry>
+</material>
+<material name="No. 1 Glaze" searchkey="Glaze #1" weight="351.72413793103" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.006270" analysis="0.100"/>
+<oxide symbol="K2O" formula="0.022403" analysis="0.600"/>
+<oxide symbol="MgO" formula="0.017455" analysis="0.200"/>
+<oxide symbol="Na2O" formula="0.005673" analysis="0.100"/>
+<oxide symbol="TiO2" formula="0.044021" analysis="1.000"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="29.000"/>
+<oxide symbol="SiO2" formula="3.447014" analysis="58.900"/>
+<oxide symbol="Fe2O3" formula="0.019784" analysis="0.900"/>
+</chemistry>
+</material>
+<material name="NP Blend Ball Clay" searchkey="" weight="346.35365486754" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.018460" analysis="0.299"/>
+<oxide symbol="K2O" formula="0.034856" analysis="0.948"/>
+<oxide symbol="MgO" formula="0.034291" analysis="0.399"/>
+<oxide symbol="Na2O" formula="0.013910" analysis="0.249"/>
+<oxide symbol="TiO2" formula="0.069357" analysis="1.600"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="29.450"/>
+<oxide symbol="SiO2" formula="3.140660" analysis="54.498"/>
+<oxide symbol="Fe2O3" formula="0.024872" analysis="1.149"/>
+</chemistry>
+</material>
+<material name="Nytal Talc" searchkey="" weight="111.1241083564" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.166768" analysis="8.420"/>
+<oxide symbol="MgO" formula="0.827139" analysis="30.000"/>
+<oxide symbol="Na2O" formula="0.006093" analysis="0.340"/>
+<oxide symbol="Al2O3" formula="0.003377" analysis="0.310"/>
+<oxide symbol="SiO2" formula="1.020533" analysis="55.200"/>
+<oxide symbol="Fe2O3" formula="0.001111" analysis="0.160"/>
+<oxide symbol="MnO" formula="0.002664" analysis="0.170"/>
+</chemistry>
+</material>
+<material name="Oakwood Ash" searchkey="" weight="85.292657314058" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.327031" analysis="21.510"/>
+<oxide symbol="K2O" formula="0.302780" analysis="33.440"/>
+<oxide symbol="MgO" formula="0.335456" analysis="15.850"/>
+<oxide symbol="Na2O" formula="0.031641" analysis="2.300"/>
+<oxide symbol="P2O5" formula="0.098216" analysis="16.340"/>
+<oxide symbol="SiO2" formula="0.009508" analysis="0.670"/>
+<oxide symbol="Fe2O3" formula="0.003092" analysis="0.580"/>
+<oxide symbol="MnO" formula="0.031278" analysis="2.600"/>
+</chemistry>
+</material>
+<material name="OM #4 Ball Clay" searchkey="OM4 Ball Clay, OM4, OM#4, OM 4, Old Mine #4, OM-4 Ball Clay" weight="365.59139784946" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.019550" analysis="0.300"/>
+<oxide symbol="K2O" formula="0.038810" analysis="1.000"/>
+<oxide symbol="MgO" formula="0.036287" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.017690" analysis="0.300"/>
+<oxide symbol="TiO2" formula="0.054907" analysis="1.200"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="27.900"/>
+<oxide symbol="SiO2" formula="3.357844" analysis="55.200"/>
+<oxide symbol="Fe2O3" formula="0.025134" analysis="1.100"/>
+</chemistry>
+</material>
+<material name="Oxford Feldspar" searchkey="" weight="688.41154851939" type="11" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.047771" analysis="0.390"/>
+<oxide symbol="K2O" formula="0.588692" analysis="8.070"/>
+<oxide symbol="Na2O" formula="0.363536" analysis="3.280"/>
+<oxide symbol="Al2O3" formula="1.168867" analysis="17.350"/>
+<oxide symbol="SiO2" formula="8.097429" analysis="70.820"/>
+<oxide symbol="Fe2O3" formula="0.003865" analysis="0.090"/>
+</chemistry>
+</material>
+<material name="Pearl Ash" searchkey="" weight="165.26315789474" type="13" property1="0">
+<chemistry>
+<oxide symbol="K2O" formula="1.000000" analysis="57.000"/>
+</chemistry>
+</material>
+<material name="Pearl Ash Calcined" searchkey="" weight="138.12316715543" type="13" property1="0">
+<chemistry>
+<oxide symbol="K2O" formula="1.000000" analysis="68.200"/>
+</chemistry>
+</material>
+<material name="Petalite" searchkey="Lithium Feldspar" weight="659.00669066756" type="11" property1="0">
+<chemistry>
+<oxide symbol="K2O" formula="0.018187" analysis="0.260"/>
+<oxide symbol="Li2O" formula="0.955243" analysis="4.320"/>
+<oxide symbol="Na2O" formula="0.026570" analysis="0.250"/>
+<oxide symbol="Al2O3" formula="1.130535" analysis="17.500"/>
+<oxide symbol="SiO2" formula="8.456585" analysis="77.130"/>
+</chemistry>
+</material>
+<material name="Pine Wood Ash" searchkey="" weight="93.861819313577" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.687553" analysis="41.100"/>
+<oxide symbol="K2O" formula="0.109191" analysis="10.960"/>
+<oxide symbol="MgO" formula="0.191190" analysis="8.210"/>
+<oxide symbol="Na2O" formula="0.011655" analysis="0.770"/>
+<oxide symbol="P2O5" formula="0.030886" analysis="4.670"/>
+<oxide symbol="SiO2" formula="0.031231" analysis="2.000"/>
+<oxide symbol="Fe2O3" formula="0.000411" analysis="0.070"/>
+<oxide symbol="MnO" formula="0.033621" analysis="2.540"/>
+</chemistry>
+</material>
+<material name="Pioneer 2661 Talc" searchkey="Pioneer Ceramic Talc, Pioneer Talc" weight="132.93086605412" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.203452" analysis="9.600"/>
+<oxide symbol="MgO" formula="0.796548" analysis="27.000"/>
+<oxide symbol="Al2O3" formula="0.014570" analysis="1.250"/>
+<oxide symbol="SiO2" formula="1.198813" analysis="60.600"/>
+<oxide symbol="Fe2O3" formula="0.003715" analysis="0.500"/>
+</chemistry>
+</material>
+<material name="Pioneer Kaolin" searchkey="" weight="265.8851976068" type="15" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="0.004295" analysis="0.100"/>
+<oxide symbol="TiO2" formula="0.046664" analysis="1.400"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="38.300"/>
+<oxide symbol="CaO" formula="0.009494" analysis="0.200"/>
+<oxide symbol="MgO" formula="0.006608" analysis="0.100"/>
+<oxide symbol="SiO2" formula="2.011791" analysis="45.400"/>
+<oxide symbol="Fe2O3" formula="0.006658" analysis="0.400"/>
+</chemistry>
+</material>
+<material name="Potash Feldspar" searchkey="K-Feldspar, Orthoclase" weight="556.9603728016" type="11" property1="0">
+<chemistry>
+<oxide symbol="K2O" formula="1.000000" analysis="16.920"/>
+<oxide symbol="Al2O3" formula="0.999944" analysis="18.320"/>
+<oxide symbol="SiO2" formula="5.999056" analysis="64.760"/>
+</chemistry>
+</material>
+<material name="Pumice" searchkey="CINDERSTONE" weight="804.42417726878" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.100374" analysis="0.700"/>
+<oxide symbol="K2O" formula="0.666084" analysis="7.800"/>
+<oxide symbol="Na2O" formula="0.233543" analysis="1.800"/>
+<oxide symbol="TiO2" formula="0.050339" analysis="0.500"/>
+<oxide symbol="Al2O3" formula="0.906949" analysis="11.500"/>
+<oxide symbol="SiO2" formula="9.730722" analysis="72.700"/>
+<oxide symbol="Fe2O3" formula="0.060332" analysis="1.200"/>
+</chemistry>
+</material>
+<material name="PV Clay" searchkey="Plastic Vitrox" weight="803.14960629921" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.143164" analysis="1.000"/>
+<oxide symbol="K2O" formula="0.426300" analysis="5.000"/>
+<oxide symbol="MgO" formula="0.099646" analysis="0.500"/>
+<oxide symbol="Na2O" formula="0.116586" analysis="0.900"/>
+<oxide symbol="TiO2" formula="0.010052" analysis="0.100"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="12.700"/>
+<oxide symbol="SiO2" formula="10.223119" analysis="76.500"/>
+<oxide symbol="Fe2O3" formula="0.025098" analysis="0.500"/>
+</chemistry>
+</material>
+<material name="Pyrax Pyrophyllite" searchkey="" weight="634.26289604609" type="4" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.011307" analysis="0.100"/>
+<oxide symbol="K2O" formula="0.121883" analysis="1.810"/>
+<oxide symbol="MgO" formula="0.015740" analysis="0.100"/>
+<oxide symbol="Na2O" formula="0.030693" analysis="0.300"/>
+<oxide symbol="TiO2" formula="0.007939" analysis="0.100"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="16.080"/>
+<oxide symbol="SiO2" formula="8.253657" analysis="78.200"/>
+<oxide symbol="Fe2O3" formula="0.007929" analysis="0.200"/>
+</chemistry>
+</material>
+<material name="Pyrofrac" searchkey="" weight="618.18181818182" type="4" property1="0">
+<chemistry>
+<oxide symbol="Fe2O3" formula="0.038636" analysis="1.000"/>
+<oxide symbol="SiO2" formula="7.909847" analysis="76.900"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="16.500"/>
+<oxide symbol="TiO2" formula="0.030948" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.019941" analysis="0.200"/>
+<oxide symbol="K2O" formula="0.013125" analysis="0.200"/>
+</chemistry>
+</material>
+<material name="Pyrophyl" searchkey="" weight="456.92852793002" type="4" property1="0">
+<chemistry>
+<oxide symbol="Fe2O3" formula="0.020011" analysis="0.700"/>
+<oxide symbol="SiO2" formula="5.578595" analysis="73.300"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="22.300"/>
+<oxide symbol="TiO2" formula="0.022899" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.014755" analysis="0.200"/>
+<oxide symbol="K2O" formula="0.009711" analysis="0.200"/>
+</chemistry>
+</material>
+<material name="Pyrophyllite" searchkey="Pyroph" weight="360.42402826855" type="4" property1="0">
+<chemistry>
+<oxide symbol="Al2O3" formula="1.000000" analysis="28.300"/>
+<oxide symbol="SiO2" formula="4.060018" analysis="67.700"/>
+</chemistry>
+</material>
+<material name="Pyrotrol" searchkey="" weight="539.12731073225" type="4" property1="0">
+<chemistry>
+<oxide symbol="Fe2O3" formula="0.013492" analysis="0.400"/>
+<oxide symbol="SiO2" formula="6.914402" analysis="77.000"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="18.900"/>
+<oxide symbol="TiO2" formula="0.027018" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.017409" analysis="0.200"/>
+<oxide symbol="K2O" formula="0.011458" analysis="0.200"/>
+</chemistry>
+</material>
+<material name="Quartz" searchkey="" weight="60.1" type="20" property1="0">
+<chemistry>
+<oxide symbol="SiO2" formula="1.000000" analysis="100.000"/>
+</chemistry>
+</material>
+<material name="Ravenscrag Slip" searchkey="" weight="557.39835586925" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.494017" analysis="4.970"/>
+<oxide symbol="K2O" formula="0.199493" analysis="3.370"/>
+<oxide symbol="MgO" formula="0.261520" analysis="1.890"/>
+<oxide symbol="Na2O" formula="0.044970" analysis="0.500"/>
+<oxide symbol="TiO2" formula="0.030010" analysis="0.430"/>
+<oxide symbol="Al2O3" formula="0.773032" analysis="14.140"/>
+<oxide symbol="SiO2" formula="6.402105" analysis="69.000"/>
+<oxide symbol="Fe2O3" formula="0.029973" analysis="0.860"/>
+</chemistry>
+</material>
+<material name="Red Lead" searchkey="" weight="227.98774259448" type="13" property1="0">
+<chemistry>
+<oxide symbol="PbO" formula="1.000000" analysis="97.890"/>
+</chemistry>
+</material>
+<material name="Redart" searchkey="Red Art" weight="657.64023210832" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.030479" analysis="0.260"/>
+<oxide symbol="K2O" formula="0.289725" analysis="4.150"/>
+<oxide symbol="MgO" formula="0.259466" analysis="1.590"/>
+<oxide symbol="Na2O" formula="0.040307" analysis="0.380"/>
+<oxide symbol="TiO2" formula="0.089716" analysis="1.090"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="15.510"/>
+<oxide symbol="P2O5" formula="0.010196" analysis="0.220"/>
+<oxide symbol="SiO2" formula="7.107110" analysis="64.950"/>
+<oxide symbol="Fe2O3" formula="0.289773" analysis="7.050"/>
+</chemistry>
+</material>
+<material name="Redearth" searchkey="Red Earth" weight="695.29652351738" type="6" property1="0">
+<chemistry>
+<oxide symbol="BaO" formula="0.010885" analysis="0.240"/>
+<oxide symbol="CaO" formula="0.060730" analysis="0.490"/>
+<oxide symbol="K2O" formula="0.241361" analysis="3.270"/>
+<oxide symbol="MgO" formula="0.194959" analysis="1.130"/>
+<oxide symbol="Na2O" formula="0.081866" analysis="0.730"/>
+<oxide symbol="TiO2" formula="0.053953" analysis="0.620"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="14.670"/>
+<oxide symbol="P2O5" formula="0.015680" analysis="0.320"/>
+<oxide symbol="SiO2" formula="7.981449" analysis="68.990"/>
+<oxide symbol="Fe2O3" formula="0.166002" analysis="3.820"/>
+<oxide symbol="MnO" formula="0.001961" analysis="0.020"/>
+</chemistry>
+</material>
+<material name="Rutile" searchkey="Iron Titanate" weight="86.760891326109" type="7" property1="0">
+<chemistry>
+<oxide symbol="TiO2" formula="1.000000" analysis="92.000"/>
+<oxide symbol="ZrO2" formula="0.007048" analysis="1.000"/>
+<oxide symbol="Al2O3" formula="0.002554" analysis="0.300"/>
+<oxide symbol="Fe2O3" formula="0.035282" analysis="6.500"/>
+</chemistry>
+</material>
+<material name="S-3 Ball Clay" searchkey="s3 ball clay, Hick S-3" weight="424.18911335578" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.001515" analysis="0.020"/>
+<oxide symbol="K2O" formula="0.049628" analysis="1.100"/>
+<oxide symbol="MgO" formula="0.027419" analysis="0.260"/>
+<oxide symbol="Na2O" formula="0.007540" analysis="0.110"/>
+<oxide symbol="TiO2" formula="0.063830" analysis="1.200"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="24.000"/>
+<oxide symbol="SiO2" formula="4.327787" analysis="61.200"/>
+<oxide symbol="Fe2O3" formula="0.027625" analysis="1.040"/>
+</chemistry>
+</material>
+<material name="Sagger XX Ball Clay" searchkey="XX Sagger, XX Sagger Ball Clay" weight="349.67432293452" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.031165" analysis="0.500"/>
+<oxide symbol="K2O" formula="0.033037" analysis="0.890"/>
+<oxide symbol="MgO" formula="0.026030" analysis="0.300"/>
+<oxide symbol="Na2O" formula="0.016920" analysis="0.300"/>
+<oxide symbol="TiO2" formula="0.074836" analysis="1.710"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="29.170"/>
+<oxide symbol="SiO2" formula="3.300670" analysis="56.730"/>
+<oxide symbol="Fe2O3" formula="0.015080" analysis="0.690"/>
+</chemistry>
+</material>
+<material name="Seriphyl" searchkey="" weight="638.15586419753" property1="0">
+<chemistry>
+<oxide symbol="Fe2O3" formula="0.159375" analysis="4.000"/>
+<oxide symbol="SiO2" formula="7.690308" analysis="72.500"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="16.000"/>
+<oxide symbol="TiO2" formula="0.031915" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.041129" analysis="0.400"/>
+<oxide symbol="K2O" formula="0.270701" analysis="4.000"/>
+</chemistry>
+</material>
+<material name="Sil-o-spar" searchkey="" weight="782.49028533237" type="11" property1="0">
+<chemistry>
+<oxide symbol="Fe2O3" formula="0.002942" analysis="0.060"/>
+<oxide symbol="SiO2" formula="10.099701" analysis="77.370"/>
+<oxide symbol="Al2O3" formula="1.036043" analysis="13.470"/>
+<oxide symbol="Na2O" formula="0.614971" analysis="4.860"/>
+<oxide symbol="K2O" formula="0.238191" analysis="2.860"/>
+<oxide symbol="CaO" formula="0.146837" analysis="1.050"/>
+</chemistry>
+</material>
+<material name="Silica" searchkey="" weight="60.1" type="20" property1="0">
+<chemistry>
+<oxide symbol="SiO2" formula="1.000000" analysis="100.000"/>
+</chemistry>
+</material>
+<material name="Sledge Ball Clay" searchkey="" weight="419.28721174004" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.029970" analysis="0.401"/>
+<oxide symbol="K2O" formula="0.017982" analysis="0.404"/>
+<oxide symbol="MgO" formula="0.042033" analysis="0.404"/>
+<oxide symbol="TiO2" formula="0.094982" analysis="1.810"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="24.327"/>
+<oxide symbol="SiO2" formula="4.393028" analysis="62.969"/>
+<oxide symbol="Fe2O3" formula="0.024004" analysis="0.916"/>
+</chemistry>
+</material>
+<material name="Snobrite Kaolin" searchkey="" weight="256.73294739492" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.011898" analysis="0.260"/>
+<oxide symbol="TiO2" formula="0.016066" analysis="0.500"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="39.730"/>
+<oxide symbol="SiO2" formula="1.915031" analysis="44.830"/>
+<oxide symbol="Fe2O3" formula="0.012034" analysis="0.750"/>
+</chemistry>
+</material>
+<material name="Soda Ash" searchkey="Sodium Carbonate" weight="106.00102581638" type="13" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="1.000000" analysis="58.490"/>
+</chemistry>
+</material>
+<material name="Soda Feldspar" searchkey="" weight="524.53468697124" type="11" property1="0">
+<chemistry>
+<oxide symbol="Na2O" formula="1.000000" analysis="11.820"/>
+<oxide symbol="Al2O3" formula="0.999701" analysis="19.440"/>
+<oxide symbol="SiO2" formula="5.999420" analysis="68.740"/>
+</chemistry>
+</material>
+<material name="Soft Wood Ash" searchkey="" weight="93.861819313577" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.687553" analysis="41.100"/>
+<oxide symbol="K2O" formula="0.109191" analysis="10.960"/>
+<oxide symbol="MgO" formula="0.191190" analysis="8.210"/>
+<oxide symbol="Na2O" formula="0.011655" analysis="0.770"/>
+<oxide symbol="P2O5" formula="0.030886" analysis="4.670"/>
+<oxide symbol="SiO2" formula="0.031231" analysis="2.000"/>
+<oxide symbol="Fe2O3" formula="0.000411" analysis="0.070"/>
+<oxide symbol="MnO" formula="0.033621" analysis="2.540"/>
+</chemistry>
+</material>
+<material name="SP-G Feldspar" searchkey="" weight="557.65186998024" property1="0">
+<chemistry>
+<oxide symbol="Fe2O3" formula="0.002101" analysis="0.060"/>
+<oxide symbol="SiO2" formula="6.353341" analysis="68.150"/>
+<oxide symbol="Al2O3" formula="1.039278" analysis="18.920"/>
+<oxide symbol="Na2O" formula="0.616316" analysis="6.820"/>
+<oxide symbol="K2O" formula="0.243862" analysis="4.100"/>
+<oxide symbol="CaO" formula="0.139822" analysis="1.400"/>
+</chemistry>
+</material>
+<material name="Spinks Blend Ball" searchkey="Spinks Blend #1" weight="381.32115026435" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.015604" analysis="0.230"/>
+<oxide symbol="K2O" formula="0.027070" analysis="0.670"/>
+<oxide symbol="MgO" formula="0.022666" analysis="0.240"/>
+<oxide symbol="Na2O" formula="0.011663" analysis="0.190"/>
+<oxide symbol="TiO2" formula="0.071451" analysis="1.500"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="26.800"/>
+<oxide symbol="P2O5" formula="0.002950" analysis="0.110"/>
+<oxide symbol="SiO2" formula="3.717312" analysis="58.700"/>
+<oxide symbol="Fe2O3" formula="0.025215" analysis="1.060"/>
+<oxide symbol="MnO" formula="0.001074" analysis="0.020"/>
+</chemistry>
+</material>
+<material name="Spodumene" searchkey="Lithium Feldspar" weight="377.73823329975" type="11" property1="0">
+<chemistry>
+<oxide symbol="Li2O" formula="1.000000" analysis="8.010"/>
+<oxide symbol="Al2O3" formula="0.999753" analysis="27.410"/>
+<oxide symbol="SiO2" formula="3.998292" analysis="64.590"/>
+</chemistry>
+</material>
+<material name="Standard Porcelain Kaolin" searchkey="English Standard Porcelain, Eng Stn Porc" weight="276.08478341355" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.004914" analysis="0.100"/>
+<oxide symbol="K2O" formula="0.046824" analysis="1.600"/>
+<oxide symbol="MgO" formula="0.020522" analysis="0.300"/>
+<oxide symbol="Na2O" formula="0.004446" analysis="0.100"/>
+<oxide symbol="TiO2" formula="0.001035" analysis="0.030"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="37.000"/>
+<oxide symbol="SiO2" formula="2.201736" analysis="48.000"/>
+<oxide symbol="Fe2O3" formula="0.010338" analysis="0.600"/>
+</chemistry>
+</material>
+<material name="Strontium Carbonate" searchkey="Strontianite" weight="147.57834757835" type="13" property1="0">
+<chemistry>
+<oxide symbol="SrO" formula="1.000000" analysis="70.200"/>
+</chemistry>
+</material>
+<material name="Super Standard Porcelain" searchkey="" weight="0" type="15" property1="0"/>
+<material name="Superpax" searchkey="" weight="183.28758767917" property1="0">
+<chemistry>
+<oxide symbol="SiO2" formula="1.000000" analysis="32.790"/>
+<oxide symbol="ZrO2" formula="0.999737" analysis="67.210"/>
+</chemistry>
+</material>
+<material name="Suzorite 325-PE" searchkey="" weight="0" property1="0"/>
+<material name="Talc" searchkey="Magnesium Silicate, Steatite, French Chalk" weight="124.06862719342" type="13" property1="0">
+<chemistry>
+<oxide symbol="MgO" formula="0.866600" analysis="28.000"/>
+<oxide symbol="SiO2" formula="1.203703" analysis="58.000"/>
+<oxide symbol="CaO" formula="0.133400" analysis="6.000"/>
+<oxide symbol="Al2O3" formula="0.024457" analysis="2.000"/>
+</chemistry>
+</material>
+<material name="Tektamer 38 Biocide" searchkey="" weight="0" type="1" property1="0"/>
+<material name="Tennessee #5 Ball" searchkey="Tennessee No. 5" weight="365.59139784946" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.019550" analysis="0.300"/>
+<oxide symbol="K2O" formula="0.038810" analysis="1.000"/>
+<oxide symbol="MgO" formula="0.036287" analysis="0.400"/>
+<oxide symbol="Na2O" formula="0.017690" analysis="0.300"/>
+<oxide symbol="TiO2" formula="0.054907" analysis="1.200"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="27.900"/>
+<oxide symbol="SiO2" formula="3.357844" analysis="55.200"/>
+<oxide symbol="Fe2O3" formula="0.025134" analysis="1.100"/>
+</chemistry>
+</material>
+<material name="TI-21 Ball Clay" searchkey="Hick TI-21" weight="373.37477337477" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.004662" analysis="0.070"/>
+<oxide symbol="K2O" formula="0.001983" analysis="0.050"/>
+<oxide symbol="MgO" formula="0.018542" analysis="0.200"/>
+<oxide symbol="Na2O" formula="0.005424" analysis="0.090"/>
+<oxide symbol="TiO2" formula="0.073884" analysis="1.580"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="27.300"/>
+<oxide symbol="SiO2" formula="3.652338" analysis="58.750"/>
+<oxide symbol="Fe2O3" formula="0.023352" analysis="1.000"/>
+</chemistry>
+</material>
+<material name="Tile #6 Kaolin" searchkey="Tile 6, Tile#6 Kaolin" weight="272.6599412591" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.020466" analysis="0.430"/>
+<oxide symbol="MgO" formula="0.038429" analysis="0.580"/>
+<oxide symbol="Na2O" formula="0.001723" analysis="0.040"/>
+<oxide symbol="TiO2" formula="0.047455" analysis="1.420"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="38.200"/>
+<oxide symbol="SiO2" formula="2.083700" analysis="46.900"/>
+<oxide symbol="Fe2O3" formula="0.005841" analysis="0.350"/>
+</chemistry>
+</material>
+<material name="Titanium Dioxide" searchkey="" weight="79.9" type="16" property1="0">
+<chemistry>
+<oxide symbol="TiO2" formula="1.000000" analysis="100.000"/>
+</chemistry>
+</material>
+<material name="Tricalcium Phosphate" searchkey="Tri-Calcium Phosphate" weight="326.61435847684" type="17" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="3.001491" analysis="51.500"/>
+<oxide symbol="P2O5" formula="1.000000" analysis="43.400"/>
+</chemistry>
+</material>
+<material name="Turkish Colemanite" searchkey="" weight="193.31949375093" type="13" property1="0">
+<chemistry>
+<oxide symbol="MgO" formula="0.086118" analysis="1.800"/>
+<oxide symbol="CaO" formula="0.910772" analysis="26.500"/>
+<oxide symbol="SrO" formula="0.013028" analysis="0.700"/>
+<oxide symbol="Al2O3" formula="0.001890" analysis="0.100"/>
+<oxide symbol="Na2O" formula="0.003110" analysis="0.100"/>
+<oxide symbol="Fe2O3" formula="0.001205" analysis="0.100"/>
+<oxide symbol="SiO2" formula="0.160407" analysis="5.000"/>
+<oxide symbol="B2O3" formula="1.146880" analysis="41.400"/>
+</chemistry>
+</material>
+<material name="Turkish Ulexite" searchkey="" weight="202.29204004628" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.710366" analysis="19.700"/>
+<oxide symbol="MgO" formula="0.100393" analysis="2.000"/>
+<oxide symbol="Na2O" formula="0.189241" analysis="5.800"/>
+<oxide symbol="B2O3" formula="0.964956" analysis="33.200"/>
+<oxide symbol="Al2O3" formula="0.003967" analysis="0.200"/>
+<oxide symbol="SiO2" formula="0.175028" analysis="5.200"/>
+</chemistry>
+</material>
+<material name="Ultrox" searchkey="" weight="189.56923076923" type="16" property1="0">
+<chemistry>
+<oxide symbol="ZrO2" formula="1.000000" analysis="65.000"/>
+<oxide symbol="SiO2" formula="1.103981" analysis="35.000"/>
+</chemistry>
+</material>
+<material name="Unispar 50" searchkey="Unispar-50" weight="518.51799213916" property1="0">
+<chemistry>
+<oxide symbol="Al2O3" formula="0.997965" analysis="19.600"/>
+<oxide symbol="SiO2" formula="5.772464" analysis="66.800"/>
+<oxide symbol="Fe2O3" formula="0.001298" analysis="0.040"/>
+<oxide symbol="CaO" formula="0.157378" analysis="1.700"/>
+<oxide symbol="Na2O" formula="0.577985" analysis="6.900"/>
+<oxide symbol="K2O" formula="0.264636" analysis="4.800"/>
+</chemistry>
+</material>
+<material name="Veegum" searchkey="Veegum T, Veegum CER, Veegum Pro" weight="0" type="1" property1="0"/>
+<material name="Velvacast Kaolin" searchkey="Velva Cast" weight="262.17378369372" type="15" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.012149" analysis="0.260"/>
+<oxide symbol="MgO" formula="0.011709" analysis="0.180"/>
+<oxide symbol="TiO2" formula="0.036090" analysis="1.100"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="38.910"/>
+<oxide symbol="SiO2" formula="1.984177" analysis="45.490"/>
+<oxide symbol="Fe2O3" formula="0.006062" analysis="0.370"/>
+</chemistry>
+</material>
+<material name="Virginia Kyanite" searchkey="" weight="170.26672843734" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.001518" analysis="0.050"/>
+<oxide symbol="MgO" formula="0.002535" analysis="0.060"/>
+<oxide symbol="K2O" formula="0.003615" analysis="0.200"/>
+<oxide symbol="Na2O" formula="0.005493" analysis="0.200"/>
+<oxide symbol="TiO2" formula="0.019607" analysis="0.920"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="59.900"/>
+<oxide symbol="Fe2O3" formula="0.009685" analysis="0.910"/>
+<oxide symbol="SiO2" formula="1.061370" analysis="37.460"/>
+</chemistry>
+</material>
+<material name="vol353cer Hectorite" searchkey="" weight="145.34288936053" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.174729" analysis="6.740"/>
+<oxide symbol="K2O" formula="0.011270" analysis="0.730"/>
+<oxide symbol="Li2O" formula="0.073205" analysis="1.500"/>
+<oxide symbol="MgO" formula="0.685671" analysis="19.000"/>
+<oxide symbol="Na2O" formula="0.055124" analysis="2.350"/>
+<oxide symbol="TiO2" formula="0.004915" analysis="0.270"/>
+<oxide symbol="Al2O3" formula="0.054324" analysis="3.810"/>
+<oxide symbol="SiO2" formula="1.050226" analysis="43.400"/>
+<oxide symbol="Fe2O3" formula="0.014089" analysis="1.550"/>
+</chemistry>
+</material>
+<material name="Volcanic Ash" searchkey="Pumicite" weight="387.85613343266" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.416925" analysis="6.000"/>
+<oxide symbol="K2O" formula="0.041383" analysis="1.000"/>
+<oxide symbol="Na2O" formula="0.251500" analysis="4.000"/>
+<oxide symbol="MgO" formula="0.290192" analysis="3.000"/>
+<oxide symbol="Al2O3" formula="0.573272" analysis="15.000"/>
+<oxide symbol="SiO2" formula="4.345802" analysis="67.000"/>
+<oxide symbol="Fe2O3" formula="0.048728" analysis="2.000"/>
+<oxide symbol="TiO2" formula="0.024395" analysis="0.500"/>
+</chemistry>
+</material>
+<material name="Whiting" searchkey="Calcium Carbonate, CaCO3" weight="100" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="1.000000" analysis="56.100"/>
+</chemistry>
+</material>
+<material name="Wollastonite" searchkey="Wolastonite" weight="126.50954838403" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.958406" analysis="42.500"/>
+<oxide symbol="Fe2O3" formula="0.003953" analysis="0.500"/>
+<oxide symbol="MgO" formula="0.031392" analysis="1.000"/>
+<oxide symbol="Na2O" formula="0.010202" analysis="0.500"/>
+<oxide symbol="Al2O3" formula="0.018604" analysis="1.500"/>
+<oxide symbol="SiO2" formula="1.094592" analysis="52.000"/>
+</chemistry>
+</material>
+<material name="Wollastonite Vansil" searchkey="Vansil" weight="126.87050003382" type="13" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.946295" analysis="42.100"/>
+<oxide symbol="K2O" formula="0.000669" analysis="0.050"/>
+<oxide symbol="MgO" formula="0.046935" analysis="1.500"/>
+<oxide symbol="Na2O" formula="0.006102" analysis="0.300"/>
+<oxide symbol="TiO2" formula="0.000789" analysis="0.050"/>
+<oxide symbol="Al2O3" formula="0.022253" analysis="1.800"/>
+<oxide symbol="SiO2" formula="1.088930" analysis="51.900"/>
+<oxide symbol="Fe2O3" formula="0.006305" analysis="0.800"/>
+</chemistry>
+</material>
+<material name="Wood Ash" searchkey="Ash Washed" weight="0" property1="0"/>
+<material name="Yellow Ochre" searchkey="" weight="511.98654753539" type="6" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.021082" analysis="0.231"/>
+<oxide symbol="MgO" formula="0.006988" analysis="0.055"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="19.922"/>
+<oxide symbol="SiO2" formula="4.922581" analysis="57.783"/>
+<oxide symbol="Fe2O3" formula="0.704220" analysis="22.007"/>
+</chemistry>
+</material>
+<material name="Zinc Oxide" searchkey="" weight="81.4" type="13" property1="0">
+<chemistry>
+<oxide symbol="ZnO" formula="1.000000" analysis="100.000"/>
+</chemistry>
+</material>
+<material name="Zircopax" searchkey="" weight="183.33581312305" type="16" property1="0">
+<chemistry>
+<oxide symbol="ZrO2" formula="1.000000" analysis="67.210"/>
+<oxide symbol="SiO2" formula="1.000263" analysis="32.790"/>
+</chemistry>
+</material>
+<material name="3C White Ball Clay" searchkey="" weight="433.05609284333" type="5" property1="0">
+<chemistry>
+<oxide symbol="CaO" formula="0.049516" analysis="0.640"/>
+<oxide symbol="K2O" formula="0.055292" analysis="1.200"/>
+<oxide symbol="MgO" formula="0.062468" analysis="0.580"/>
+<oxide symbol="Na2O" formula="0.003500" analysis="0.050"/>
+<oxide symbol="TiO2" formula="0.053237" analysis="0.980"/>
+<oxide symbol="Al2O3" formula="1.000000" analysis="23.500"/>
+<oxide symbol="P2O5" formula="0.004588" analysis="0.150"/>
+<oxide symbol="SiO2" formula="3.979325" analysis="55.100"/>
+<oxide symbol="Fe2O3" formula="0.032553" analysis="1.200"/>
+<oxide symbol="MnO" formula="0.000612" analysis="0.010"/>
+</chemistry>
+</material>
+</materials>
+</mdt>

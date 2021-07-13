@@ -1,0 +1,28 @@
+<head>
+<SCRIPT src="../../includes/jquery-1.5.min.js"></script>
+<SCRIPT src="../../includes/jquery.json-2.2.min.js"></SCRIPT> 
+<script>
+$(document).ready(function(){
+  var data = new Object();
+  data.hello = "Hello";
+  data.world = 'World';
+  data.worked = " it worked ";
+  data.somebool = true;
+  data.array = new Array("he\"ll\"o", '"World"');
+  var dataString = $.toJSON(data);
+  $("#input_dataString").attr('value',dataString);
+  $.post('phpfile.php', 'data=' + dataString, function(res){
+    var obj = $.evalJSON(res);
+      $("#result").html("from php: " + obj.php_message + " obj.hello: " + obj.hello);
+  });
+});
+</script>
+</head>
+<body>
+<div id="string">Loading dataString...</div>
+<div id="result">This is not the text I am hoping to see...</div>
+<form action='phpfile.php' method='post'>
+<input type='text' name='data' id='input_dataString' size=100 />
+<input type='submit' value='look at phpfile.php' />
+</form>
+</body>

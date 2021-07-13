@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+	Web20 Table Style
+	written by Netway Media, http://www.netway-media.com
+*/
+table {
+	border-collapse: collapse;
+	background: #ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f6f6f6)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ffffff,  #f6f6f6); /* for firefox 3.6+ */ 
+	text-align:left;
+  	
+	font-family:"Tw Cen MT";
+	color: #3C3C3C;
+}
+caption {
+  text-align: center;
+  font: bold 16px arial, helvetica, sans-serif;
+  background: transparent;
+  padding:6px 4px 8px 0px;
+  color: #CC00FF;
+  text-transform: uppercase;
+}
+
+thead {
+	border:none;
+	border-bottom:1px solid #353535;
+	color:#000;
+	
+	font-size:.7em;
+}
+
+thead {
+  	background: #ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e2e2e2'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e2e2e2)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ffffff,  #e2e2e2); /* for firefox 3.6+ */ 
+	
+	text-align:left;
+	height:30px;
+}
+thead td {
+	padding-left:2px;
+	font-size:1.1em;
+	font-weight:bold;
+}
+
+tr.odd {
+background: #f1f1f1;
+}
+tbody th, tbody td {
+	padding:2px 0px 2px 2px;
+	font-family: Verdana,Arial,sans-serif;
+	font-size:0.7em;
+}
+
+tbody td a:link {
+	text-decoration:none;
+	font-family:"Tw Cen MT";
+	font-weight:bold;
+	font-size:1.2em;
+	color:#0013c3;
+}
+
+tbody td a:visited {
+color:#0013c3;
+}
+
+tbody td a:hover {
+	text-decoration:underline;
+}
+
+
+tbody input, tfoot input {
+	font-size:.9em;
+}
+
+tbody td:last {
+	border-bottom:none;
+}

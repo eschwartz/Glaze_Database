@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<script type="text/javascript" src="../includes/jquery_ui/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="../includes/jquery.json-2.2.min.js" ></script>
+<script type="text/javascript" src="../includes/jsFunctions.js"></script>
+<script type="text/javascript" src="../includes/Objects/MySQLFields.js"></script>
+<script type="text/javascript" src="../includes/Objects/GlazeObject.js" ></script>
+<script type="text/javascript" src="../includes/jquery_ui/js/jquery-ui-1.8.10.custom.min.js"></script>
+<script type="text/javascript">
+function createObject() {
+	GlazeObject = new Glaze();	
+}
+
+function testing() {
+	GlazeObject.setID(1);
+	GlazeObject.loadGlaze();
+	console.log(GlazeObject);
+}
+
+</script>
+
+
+<meta http-equiv="content-type" content="text/xml; charset=utf-8" /> 
+<title>Glaze Object SANDBOX</title> 
+<link href="../includes/CSS/DYLMG.css" rel="stylesheet" type="text/css" />
+<link href='../includes/CSS/web20_table.css' rel='stylesheet' type='text/css'> 
+<link href='../includes/CSS/unityTable.css' rel='stylesheet' type='text/css'> 
+
+</head> 
+<body > 
+ 
+	<!-- Banner Header --> 
+    <div id="header"> 
+    	<img id='banner' src="../images/header_splatter.png"> 
+		<img id='logo' src="../images/DYLMG_title.png" > 
+        
+        <div id="quickLogin"> 
+          <label for="quickLogin">Username:</label><br> 
+            <input type="text" name="quickLogin"/><br> 
+            <label for="quickLogin">Password:</label><br> 
+            <input type="text" name="quickPass" /> 
+      </div> 
+</div><!-- end header div--> 
+	
+	<div id='navbar'> 
+		<button onclick="window.location='/usr/myAccount.php'" class='navButton'>My Account</button> 
+		<button onclick="window.location='/glazes/DYLMG_glazeSearch.php'" class='navButton'>Glaze Search</button> 
+		<button onclick="window.location='/glazes/DYLMG_postGlaze.php'" class='navButton' >Submit Glaze</button>
+    </div> 
+ 
+<div id='master-container'>
+ 
+<!-- __________________________________________ Content Start Here_______________________________________--> 
+<div id="content-container">	
+    <div id="content-column">
+        <div class="section">
+            <div class="sectionHead">Glaze Object SANDBOX</div>
+            <div class="sectionContent">
+
+
+<button onclick="createObject()" >Create GlazeObject</button>
+<button onclick="alertAssoc(GlazeObject)">Alert GlazeObject</button>
+<button onclick="testing()" >Load Glaze</button>
+<button onclick="GlazeObject.loadGlazeVariations(); console.log(GlazeObject); ">Load all variations</button>
+<button onclick="GlazeObject.variations[0].loadVarImages(); console.log(GlazeObject);">Load all images for var[0]</button><br />
+<button onclick="console.log(GlazeObject)">Log Glaze</button>
+<br />
+<input id="author" /><button onclick="(GlazeObject.setProp('GlazeAuthor', $('#author').val() ) )" >Set author to text</button>
+<button onclick="GlazeObject.saveGlaze()">Save Glaze</button>
+			<div id="results"></div>
+
+
+            </div>
+        </div>  
+    </div>      
+</div>    
+    
+<!-- __________________________________________ Content Ends Here________________________________________--> 
+</div><!-- End master-container div --> 
+</body> 
+</html> 
